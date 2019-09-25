@@ -1,6 +1,6 @@
 # A - Name
 
-  [問題はこちら](https://atcoder.jp/)
+- [問題はこちら](https://atcoder.jp/)
 
 - 発想
 
