@@ -9,14 +9,12 @@
 
 - コード（C++）
 
-```c++:sample.cpp
-#include <bits/stdc++.h>
-using namespace std;
+    #include <bits/stdc++.h>
+    using namespace std;
 
-int main() {
-  cout << "Hello, world!" << endl;
-}
-```
+    int main() {
+        cout << "Hello, world!" << endl;
+    }
 
 - コード（Java）
 
