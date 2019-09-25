@@ -8,7 +8,6 @@
 　ここに発想を簡単に書きます。
 
 - コード（C++）
-
 ```c++
 #include <bits/stdc++.h>
 using namespace std;
