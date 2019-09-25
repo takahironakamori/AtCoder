@@ -9,7 +9,7 @@
 
 - コード（C++）
 
-  ```c++
+  ```cpp
   #include <bits/stdc++.h>
   using namespace std;
 
@@ -19,7 +19,7 @@
   ```
 
 - コード（Java）
-
+  ```java
   import java.util.*;
 
   public class Main {
@@ -48,4 +48,5 @@
     }
 
   }
+  ```
     
