@@ -1,11 +1,12 @@
-### ABC093 
+### ABC093
+
 # B - Small and Large Integers
 
   [問題はこちら](https://atcoder.jp/contests/abc093/tasks/abc093_b)
 
 - 発想
 
-  以下を満たす整数を出力します。
+  以下を満たす整数を出力する。
   
   「A以上(A+K)未満である」または「(B-K)超B以下である」
 
