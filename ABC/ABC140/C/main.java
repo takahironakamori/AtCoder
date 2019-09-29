@@ -5,27 +5,35 @@ public class Main {
   public static void main (String[] args) {
 
     Scanner sc = new Scanner(System.in);
-    
-    int N = sc.nextInt();
-    
-    int[] A = new int[N];
 
-    for (int i = 0; i < N; i++) {
-      int a = sc.nextInt();
-      A[a - 1] = i + 1;
+    int N = sc.nextInt();
+    int[] B = new int[N];
+
+    for(int i = 1; i < N; i++) {
+      B[i] = sc.nextInt();
     }
 
     sc.close();
-  
-    for (int i = 0; i < N; i++) {
-      System.out.print(A[i]);
-      if (i != N - 1) {
-        System.out.print(" ");
+
+    int[] A = new int[N+1];
+
+    A[1] = B[1];
+
+    for (int i = 1; i < N; i++) {
+      if (B[i] < A[i]) {
+        A[i] = B[i];
       }
+      A[i + 1] = B[i];
     }
 
-    System.out.println("");
-    
+    int max = 0;
+
+    for (int i = 1; i <= N; i++) {
+      max += A[i];
+    }
+
+    System.out.println(max);
+
   }
 
 }
