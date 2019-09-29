@@ -1,19 +1,17 @@
-### ABC142
+### ABC140
 
-# C - Go to School
+# C - Maximal Value
 
-  [問題はこちら](https://atcoder.jp/contests/abc142/tasks/abc142_c)
+  [問題はこちら](https://atcoder.jp/contests/abc140/tasks/abc140_c)
 
 - 発想
 
-  生徒が登校した時点で、教室にいる生徒の数（自分も含めて）は、登校した順番と同じ。<br>
-  A の数が少ない順に出席番号が出力すればいい。
-
-- 実装のポイント
-
-  インデックスを登校した順番とする配列を作り、値を出席番号にする。<br>
-  すなわち、A[登校順] = 出席番号 の配列を作る。<br>
-  配列は 0 から、出席番号は 1 から始まっているので、インデックスの数値や値に気をつける。
+  A_i に B_i を入れる。<br>
+  A_i+1 に B_i を入れておく。<br>
+  A_i+1 が B_i+1 より大きい場合は、条件を満たさないので、A_i+1 を B_i+1 に入れる。<br>
+  A_i+2 に　B_i+1 を入れておく。<br>
+  ...<br>
+  以上を最後（ N - 1 回）まで繰り返して、A_i から A_Nまでの合計を出力する。
   
 
 - コード（C++）
@@ -27,22 +25,29 @@
     int N;
     cin >> N;
 
-    vector<int> A(N);
-
-    for (int i = 0; i < N; i++) {
-      int a;
-      cin >> a;
-      A[a - 1] = i + 1;
+    vector<int> B(N);
+    for (int i = 1; i < N; i++) {
+      cin >> B[i];
     }
 
-    for (int i = 0; i < N; i++) {
-      cout << A[i];
-      if (i != N - 1) {
-        cout << " ";
+    vector<int> A(N+1);
+
+    A[1] = B[1];
+
+    for (int i = 1; i < N; i++) {
+      if (B[i] < A[i]) {
+        A[i] = B[i];
       }
+      A[i + 1] = B[i];
     }
 
-    cout << endl;
+    int m = 0;
+
+    for (int i = 1; i <= N; i++) {
+      m += A[i];
+    }
+
+    cout << m << endl;
 
   }
   ```
