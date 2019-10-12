@@ -31,7 +31,7 @@ public class Main {
       }
     }
 
-    Set<Integer> result = new TreeSet<Integer>();
+    Queue<Integer> result = new ArrayDeque<>();
     for (int i = 1; i < N+1; i++) {
       if (b[i] == 1) {
         result.add(i);
