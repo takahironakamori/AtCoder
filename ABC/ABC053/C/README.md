@@ -1,8 +1,8 @@
-### ABC073
+### ABC053
 
-# C - Write and Erase
+# C - X: Yet Another Die Game
 
-  [問題はこちら](https://atcoder.jp/contests/abc073/tasks/abc073_c)
+  [問題はこちら](https://atcoder.jp/contests/abc053/tasks/arc068_a)
 
 - 発想
   
