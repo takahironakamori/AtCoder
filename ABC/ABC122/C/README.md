@@ -5,7 +5,7 @@
   [問題はこちら](https://atcoder.jp/contests/abc122/tasks/abc122_c)
 
 - 発想<br>
-　累積和。<br>
+  累積和。<br>
   A と C が並んでいれば 1 カウントを加える。<br>
   A と C が並んでいる個数を保持する配列を v とすると、以下のようなイメージになる。<br>
   <br>
