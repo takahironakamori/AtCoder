@@ -9,7 +9,7 @@
   A と C が並んでいれば 1 カウントを加える。<br>
   A と C が並んでいる個数を保持する配列を v とすると、以下のようなイメージになる。<br>
   <br>
-  
+  ![配列のイメージ]( https://github.com/takahironakamori/AtCoder/blob/master/ABC/ABC122/C/img/abc122_c_01.png "")
   <br>
   最初に文字列を調べて、累積和の配列を作っておく。<br>
   次に、l が 3、r が 7 とすると、v[3] = 1、v[7] = 3 となり、<br>
