@@ -3,24 +3,38 @@ using namespace std;
 
 int main() {
 
-  int n;
-  cin >> n;
+  int N;
+  cin >> N;
 
-  vector<int> number(1000010);
-  for (int i = 0; i < n; i++) {
-    int a, b;
-    cin >> a >> b;
-    number[a]++;
-    number[b+1]--;
+  vector<int> NG(301);
+  for (int i = 0; i < 3; i++) {
+    int v;
+    cin >> v;
+    NG[v] = 1;
   }
 
-  int m = number[0];
+  vector<int> dp(N + 10);
 
-  for (int i = 1; i < number.size(); i++) {
-    number[i] += number[i - 1];
-    m = max(m, number[i]);
+  fill(dp.begin(), dp.end(), 10000000);
+
+  if (NG[N] != 1) {
+    dp[N] = 0;
   }
 
-  cout << m << endl;
+  for (int i = N - 1; 0 <= i; i--) {
+
+    if (NG[i] == 1) {
+      continue;
+    }
+
+    dp[i] = min(dp[i+3]+1, min(dp[i+2]+1, dp[i+1]+1));
+
+  }
+
+  if (dp[0] <= 100) {
+    cout << "YES" << endl;
+  } else{
+    cout << "NO" << endl;
+  }
 
 }

@@ -1,18 +1,18 @@
-### ABC014
+### ABC011
 
-# C - AtColor
+# C - 123引き算
 
-  [問題はこちら](https://atcoder.jp/contests/abc014/tasks/abc014_3)
+  [問題はこちら](https://atcoder.jp/contests/abc011/tasks/abc011_3)
 
-- 発想
-  
-  いもす法で解く。
-  
-  
-- 実装のポイント
-
-  1000000以上の要素をもつ配列は作れる。
-  
+- 発想<br>
+  DP。<br>
+  dp用の配列を用意し、大きな値で初期化。<br>
+  dp[i] は、N が i になるまでの処理の回数が入る。<br>
+  dpの要素数もN+10くらいにしておく。<br>
+  dp[N] を 0 にする。<br>
+  dp[i] が、NG1、NG2、NG3 に該当する場合は、i を次の値にする。<br>
+  dp[i] は dp[i+1]+1、dp[i+2]+1、dp[i+3]+1 で最も小さい値を選択する。<br>
+  dp[0] まで確認して、dp[0] が100以下なら YES を、100 を超える場合は NO を出力する。
 
 - コード（C++）
 
@@ -22,25 +22,39 @@
 
   int main() {
 
-    int n;
-    cin >> n;
+    int N;
+    cin >> N;
 
-    vector<int> number(1000010);
-    for (int i = 0; i < n; i++) {
-      int a, b;
-      cin >> a >> b;
-      number[a]++;
-      number[b+1]--;
+    vector<int> NG(301);
+    for (int i = 0; i < 3; i++) {
+      int v;
+      cin >> v;
+      NG[v] = 1;
     }
 
-    int m = number[0];
+    vector<int> dp(N + 10);
 
-    for (int i = 1; i < number.size(); i++) {
-      number[i] += number[i - 1];
-      m = max(m, number[i]);
+    fill(dp.begin(), dp.end(), 10000000);
+
+    if (NG[N] != 1) {
+      dp[N] = 0;
     }
 
-    cout << m << endl;
+    for (int i = N - 1; 0 <= i; i--) {
+
+      if (NG[i] == 1) {
+        continue;
+      }
+
+      dp[i] = min(dp[i+3]+1, min(dp[i+2]+1, dp[i+1]+1));
+
+    }
+
+    if (dp[0] <= 100) {
+      cout << "YES" << endl;
+    } else{
+      cout << "NO" << endl;
+    }
 
   }
   ```
@@ -56,27 +70,39 @@
 
       Scanner sc = new Scanner(System.in);
 
-      int n = sc.nextInt();
+      int N = sc.nextInt();
+      int[] NG = new int[301];
 
-      int[] v = new int[1000002];
-
-      for (int i = 0; i < n; i++) {
-        int a = sc.nextInt();
-        int b = sc.nextInt();
-        v[a]++;
-        v[b+1]--;
+      for (int i = 0; i < 3; i++) {
+        int ng_ = sc.nextInt();
+        NG[ng_] = 1;
       }
 
       sc.close();
 
-      int max = v[0];
+      int[] dp = new int[N+10];
 
-      for (int i = 1; i < 1000002; i++) {
-        v[i] = v[i] + v[i-1];
-        max = Math.max(max, v[i]);
+      Arrays.fill(dp, 10000000);
+
+      if (NG[N] != 1) {
+        dp[N] = 0;
       }
 
-      System.out.println(max);
+      for (int i = N-1; 0 <= i; i--) {
+
+        if (NG[i] == 1){
+          continue;
+        }
+
+        dp[i] = Math.min(dp[i+1]+1, Math.min(dp[i+2]+1, dp[i+3]+1));
+
+      }
+
+      if (dp[0] <= 100) {
+        System.out.println("YES");
+      } else {
+        System.out.println("NO");
+      }
 
     }
 
