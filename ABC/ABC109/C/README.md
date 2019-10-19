@@ -78,21 +78,13 @@
 
     }
 
-    public static long gcd(long x, long y){
+    static long gcd(long a, long b) {
 
-      if (x < y) {
-        long t = x;
-        x = y;
-        y = t;
+      if (b == 0) {
+        return a;
       }
 
-      while (y > 0) {
-        long r = x % y;
-        x = y;
-        y = r;
-      }
-
-      return x;
+      return gcd(b, a % b);
 
     }
 
