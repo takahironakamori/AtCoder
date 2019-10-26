@@ -5,7 +5,8 @@
   [問題はこちら](https://atcoder.jp/contests/abc088/tasks/abc088_c)
 
 - 発想
-  <img src="https://github.com/takahironakamori/AtCoder/blob/master/ABC/ABC088/C/image_01.png" alt="図1" width="500px" height="auto">  
+  <img src="../image_01.png" alt="図1" width="320px" height="auto">  
+  <img src="../image_02.png" alt="図2" width="320px" height="auto">  
 
 - コード（C++）
 
