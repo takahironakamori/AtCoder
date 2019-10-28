@@ -7,12 +7,12 @@
 - 発想<br>
   水の高さが水筒の高さの1/2以上か否かで直角三角形の辺が下図のように分岐する。<br>
   
-  水の高さが水筒の高さの1/2以上の場合
-  <img src="./image_01.png" alt="図1" width="320px" height="auto">
+  【水の高さが水筒の高さの1/2以上の場合】<br>
+  <img src="./image_01.png" alt="図1" width="480px" height="auto">
   
   
-  水の高さが水筒の高さの1/2未満の場合
-  <img src="./image_02.png" alt="図2" width="320px" height="auto"> 
+  【水の高さが水筒の高さの1/2未満の場合】<br>
+  <img src="./image_02.png" alt="図2" width="480px" height="auto"> 
 
 - 実装のポイント<br>
   
