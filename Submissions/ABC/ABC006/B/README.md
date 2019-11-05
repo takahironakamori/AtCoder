@@ -1,11 +1,12 @@
 ### ABC006
 
-# A - 世界のFizzBuzz
+# B - トリボナッチ数列
 
-  [問題はこちら](https://atcoder.jp/contests/abc006/tasks/abc006_1)
+  [問題はこちら](https://atcoder.jp/contests/abc006/tasks/abc006_2)
 
 - 発想<br>
-  N が 3 で割り切れたら YES を、割り切れない場合は NO を出力する。
+  配列を作ってループで回す。<br>
+  i =0, 1, 2のときだけ特別な処理をする。
   
 
 - コード（C++）
