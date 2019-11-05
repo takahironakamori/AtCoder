@@ -15,8 +15,8 @@
     <td>007</td>
     <td><a href="https://atcoder.jp/contests/abc007/tasks/abc007_1">植木算</a></td><td><a href="./ABC007/A">AC</a></td>
     <td><a href="https://atcoder.jp/contests/abc007/tasks/abc007_2">辞書式順序</a></td><td><a href="./ABC007/B">AC</a></td>
-    <td>&nbsp;</td><td>&nbsp;</td>
-    <td>&nbsp;</td><td>&nbsp;</td>
+    <td><a href="https://atcoder.jp/contests/abc007/tasks/abc007_3">幅優先探索</a></td><td>&nbsp;</td>
+    <td><a href="https://atcoder.jp/contests/abc007/tasks/abc007_4">禁止された数字</a></td><td>&nbsp;</td>
     <td align="center">−</td><td align="center">−</td>
     <td align="center">−</td><td align="center">−</td>
   </tr>
@@ -26,7 +26,7 @@
     <td><a href="https://atcoder.jp/contests/abc006/tasks/abc006_1">世界のFizzBuzz</a></td><td><a href="./ABC006/A">AC</a></td>
     <td><a href="https://atcoder.jp/contests/abc006/tasks/abc006_2">トリボナッチ数列</a></td><td><a href="./ABC006/B">AC</a></td>
     <td><a href="https://atcoder.jp/contests/abc006/tasks/abc006_3">スフィンクスのなぞなぞ</a></td><td><a href="./ABC006/C">AC</a></td>
-    <td>&nbsp;</td><td>&nbsp;</td>
+    <td><a href="https://atcoder.jp/contests/abc006/tasks/abc006_4">トランプ挿入ソート</a></td><td>&nbsp;</td>
     <td align="center">−</td><td align="center">−</td>
     <td align="center">−</td><td align="center">−</td>
   </tr>
@@ -35,8 +35,8 @@
     <td>005</td>
     <td><a href="https://atcoder.jp/contests/abc005/tasks/abc005_1">おいしいたこ焼きの作り方</a></td><td><a href="./ABC005/A">AC</a></td>
     <td><a href="https://atcoder.jp/contests/abc005/tasks/abc005_2">おいしいたこ焼きの食べ方</a></td><td><a href="./ABC005/B">AC</a></td>
-    <td>&nbsp;</td><td>&nbsp;</td>
-    <td>&nbsp;</td><td>&nbsp;</td>
+    <td><a href="https://atcoder.jp/contests/abc005/tasks/abc005_3">おいしいたこ焼きの売り方</a></td><td>&nbsp;</td>
+    <td><a href="https://atcoder.jp/contests/abc005/tasks/abc005_4">おいしいたこ焼きの焼き方</a></td><td>&nbsp;</td>
     <td align="center">−</td><td align="center">−</td>
     <td align="center">−</td><td align="center">−</td>
   </tr>
