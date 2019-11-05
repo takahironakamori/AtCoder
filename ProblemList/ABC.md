@@ -20,6 +20,6 @@
   <tr>
     <td>001</td>
     <td><a href="https://atcoder.jp/contests/abc001/tasks/abc001_1">A - 積雪深差</a></td><td><a href="./ABC001/A">AC</a></td>
-    <td></td>
+    <td><a href="https://atcoder.jp/contests/abc001/tasks/abc001_2">B - 視程の通報</a></td><td><a href="./ABC001/B">AC</a></td>
   </tr>
 </table>
