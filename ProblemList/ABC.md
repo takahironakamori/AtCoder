@@ -19,7 +19,7 @@
   </tr>
   <tr>
     <td>001</td>
-    <td><a href="https://atcoder.jp/contests/abc001/tasks/abc001_1">A - 積雪深差</a> <a href="./ABC001/A">AC</a></td>
+    <td><a href="https://atcoder.jp/contests/abc001/tasks/abc001_1">A - 積雪深差</a></td><td><a href="./ABC001/A">AC</a></td>
     <td></td>
   </tr>
 </table>
