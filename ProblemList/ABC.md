@@ -15,9 +15,6 @@
     <th rowspan="2">#</th><th rowspan="2">A</th><th rowspan="2">B</th><th rowspan="2">C</th><th rowspan="2">D</th><th rowspan="2">E</th><th rowspan="2">F</th>
   </tr>
   <tr>
-    <th>問題</th><th>AC</th><th>問題</th><th>AC</th><th>問題</th><th>AC</th><th>問題</th><th>AC</th><th>問題</th><th>AC</th><th>問題</th><th>AC</th>
-  </tr>
-  <tr>
     <td>001</td>
     <td><a href="https://atcoder.jp/contests/abc001/tasks/abc001_1">A - 積雪深差</a> <a href="./ABC001/A">AC</a></td>
     <td></td>
