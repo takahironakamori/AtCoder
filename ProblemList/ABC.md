@@ -18,6 +18,15 @@
     <th>問題</th><th>AC</th><th>問題</th><th>AC</th><th>問題</th><th>AC</th><th>問題</th><th>AC</th><th>問題</th><th>AC</th><th>問題</th><th>AC</th>
   </tr>
   <tr>
+    <td>002</td>
+    <td><a href="https://atcoder.jp/contests/abc002/tasks/abc002_1">正直者</a></td><td><a href="./ABC002/A">AC</a></td>
+    <td><a href="https://atcoder.jp/contests/abc001/tasks/abc002_2">罠</a></td><td><a href="./ABC002/B">AC</a></td>
+    <td>&nbsp;</td><td>&nbsp;</td>
+    <td>&nbsp;</td><td>&nbsp;</td>
+    <td align="center">−</td><td align="center">−</td>
+    <td align="center">−</td><td align="center">−</td>
+  </tr>
+  <tr>
     <td>001</td>
     <td><a href="https://atcoder.jp/contests/abc001/tasks/abc001_1">積雪深差</a></td><td><a href="./ABC001/A">AC</a></td>
     <td><a href="https://atcoder.jp/contests/abc001/tasks/abc001_2">視程の通報</a></td><td><a href="./ABC001/B">AC</a></td>
