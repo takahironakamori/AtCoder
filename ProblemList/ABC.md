@@ -23,7 +23,7 @@
     <td><a href="https://atcoder.jp/contests/abc001/tasks/abc001_2">視程の通報</a></td><td><a href="./ABC001/B">AC</a></td>
     <td>&nbsp;</td><td>&nbsp;</td>
     <td>&nbsp;</td><td>&nbsp;</td>
-    <td>&nbsp;</td><td>&nbsp;</td>
-    <td>&nbsp;</td><td>&nbsp;</td>
+    <td>−</td><td>−</td>
+    <td>−</td><td>−</td>
   </tr>
 </table>
