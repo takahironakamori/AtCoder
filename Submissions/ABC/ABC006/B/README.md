@@ -16,14 +16,25 @@
 
   int main() {
 
-    int N;
-    cin >> N;
+    int n;
+    cin >> n;
 
-    if (N % 3 == 0) {
-      cout << "YES" << endl;
-    } else {
-      cout << "NO" << endl;
+    long long r = 0;
+
+    vector<long long> arr(n);
+
+    for (int i = 0; i < n; i++){
+      if(i < 2){
+        arr[i] = 0;
+      } else if(i == 2){
+        arr[i] = 1;
+      } else {
+        arr[i] = (arr[i-3] + arr[i-2] + arr[i-1] ) % 10007;
+      }
+      r = arr[i];
     }
+
+    cout << r << endl;
 
   }
   ```
@@ -34,13 +45,25 @@
   import java.util.*;
   public class Main {
     public static void main(String[] args){
+
       Scanner sc = new Scanner(System.in);
-      int N = sc.nextInt();
-      if(N%3 == 0){
-        System.out.println("YES");
-      } else {
-        System.out.println("NO");
+      int n = sc.nextInt();
+      long r = 0;
+      long[] arr = new long[n];
+
+      for (int i = 0; i < n; i++){
+        if(i < 2){
+          arr[i] = 0;
+        } else if(i == 2){
+          arr[i] = 1;
+        } else {
+          arr[i] = (arr[i-3] + arr[i-2] + arr[i-1] ) % 10007;
+        }
+        r = arr[i];
       }
+
+      System.out.println(r);
+
     }
   }
   ```
