@@ -12,7 +12,10 @@
 
 <table>
   <tr>
-    <th rowspan="2">#</th><th rowspan="2">A</th><th rowspan="2">B</th><th rowspan="2">C</th><th rowspan="2">D</th><th rowspan="2">E</th><th rowspan="2">F</th>
+    <th rowspan="2">#</th><th colspan="2">A</th><th colspan="2">B</th><th colspan="2">C</th><th colspan="2">D</th><th colspan="2">E</th><th colspan="2">F</th>
+  </tr>
+  <tr>
+    <th>問題</th><th>AC</th><th>問題</th><th>AC</th><th>問題</th><th>AC</th><th>問題</th><th>AC</th><th>問題</th><th>AC</th><th>問題</th><th>AC</th>
   </tr>
   <tr>
     <td>001</td>
