@@ -45,8 +45,8 @@
     <td>004</td>
     <td><a href="https://atcoder.jp/contests/abc004/tasks/abc004_1">流行</a></td><td><a href="./ABC004/A">AC</a></td>
     <td><a href="https://atcoder.jp/contests/abc004/tasks/abc004_2">回転</a></td><td><a href="./ABC004/B">AC</a></td>
-    <td>&nbsp;</td><td>&nbsp;</td>
-    <td>&nbsp;</td><td>&nbsp;</td>
+    <td><a href="https://atcoder.jp/contests/abc004/tasks/abc004_3">入れ替え</a></td><td>&nbsp;</td>
+    <td><a href="https://atcoder.jp/contests/abc004/tasks/abc004_4">マーブル</a></td><td>&nbsp;</td>
     <td align="center">−</td><td align="center">−</td>
     <td align="center">−</td><td align="center">−</td>
   </tr>
@@ -55,8 +55,8 @@
     <td>003</td>
     <td><a href="https://atcoder.jp/contests/abc003/tasks/abc003_1">AtCoder社の給料</a></td><td><a href="./ABC003/A">AC</a></td>
     <td><a href="https://atcoder.jp/contests/abc003/tasks/abc003_2">AtCoderトランプ</a></td><td><a href="./ABC003/B">AC</a></td>
-    <td>&nbsp;</td><td>&nbsp;</td>
-    <td>&nbsp;</td><td>&nbsp;</td>
+    <td><a href="https://atcoder.jp/contests/abc003/tasks/abc003_3">AtCoderプログラミング講座</a></td><td>&nbsp;</td>
+    <td><a href="https://atcoder.jp/contests/abc003/tasks/abc003_4">AtCoder社の冬</a></td><td>&nbsp;</td>
     <td align="center">−</td><td align="center">−</td>
     <td align="center">−</td><td align="center">−</td>
   </tr>
@@ -65,8 +65,8 @@
     <td>002</td>
     <td><a href="https://atcoder.jp/contests/abc002/tasks/abc002_1">正直者</a></td><td><a href="./ABC002/A">AC</a></td>
     <td><a href="https://atcoder.jp/contests/abc001/tasks/abc002_2">罠</a></td><td><a href="./ABC002/B">AC</a></td>
-    <td>&nbsp;</td><td>&nbsp;</td>
-    <td>&nbsp;</td><td>&nbsp;</td>
+    <td><a href="https://atcoder.jp/contests/abc002/tasks/abc002_3">直訴</a></td><td>&nbsp;</td>
+    <td><a href="https://atcoder.jp/contests/abc002/tasks/abc002_4">派閥</a></td><td>&nbsp;</td>
     <td align="center">−</td><td align="center">−</td>
     <td align="center">−</td><td align="center">−</td>
   </tr>
@@ -75,8 +75,8 @@
     <td>001</td>
     <td><a href="https://atcoder.jp/contests/abc001/tasks/abc001_1">積雪深差</a></td><td><a href="./ABC001/A">AC</a></td>
     <td><a href="https://atcoder.jp/contests/abc001/tasks/abc001_2">視程の通報</a></td><td><a href="./ABC001/B">AC</a></td>
-    <td>&nbsp;</td><td>&nbsp;</td>
-    <td>&nbsp;</td><td>&nbsp;</td>
+    <td><a href="https://atcoder.jp/contests/abc001/tasks/abc001_3">風力観測</a></td><td>&nbsp;</td>
+    <td><a href="https://atcoder.jp/contests/abc001/tasks/abc001_4">感雨時刻の整理</a></td><td>&nbsp;</td>
     <td align="center">−</td><td align="center">−</td>
     <td align="center">−</td><td align="center">−</td>
   </tr>
