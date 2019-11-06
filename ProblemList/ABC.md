@@ -15,7 +15,7 @@
     <td>011</td>
     <td><a href="https://atcoder.jp/contests/abc011/tasks/abc011_1">来月は何月？</a></td><td>&nbsp;</td>
     <td><a href="https://atcoder.jp/contests/abc011/tasks/abc011_2">名前の確認</a></td><td>&nbsp;</td>
-    <td><a href="https://atcoder.jp/contests/abc011/tasks/abc011_3">123引き算</a></td><td><a href="../Submissions/ABC/ABC011/C">AC</a></td>
+    <td><a href="https://atcoder.jp/contests/abc011/tasks/abc011_3">123引き算</a></td><td>&nbsp;</td>
     <td><a href="https://atcoder.jp/contests/abc011/tasks/abc011_4">大ジャンプ</a></td><td>&nbsp;</td>
     <td align="center">−</td><td align="center">−</td>
     <td align="center">−</td><td align="center">−</td>
