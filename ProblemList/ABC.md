@@ -103,7 +103,7 @@
   
   <tr>
     <td>001</td>
-    <td><a href="https://atcoder.jp/contests/abc001/tasks/abc001_1">積雪深差</a></td><td><a href="./ABC001/A">AC</a></td>
+    <td><a href="https://atcoder.jp/contests/abc001/tasks/abc001_1">積雪深差</a></td><td><a href="../Submissions/ABC001/A">AC</a></td>
     <td><a href="https://atcoder.jp/contests/abc001/tasks/abc001_2">視程の通報</a></td><td><a href="./ABC001/B">AC</a></td>
     <td><a href="https://atcoder.jp/contests/abc001/tasks/abc001_3">風力観測</a></td><td>&nbsp;</td>
     <td><a href="https://atcoder.jp/contests/abc001/tasks/abc001_4">感雨時刻の整理</a></td><td>&nbsp;</td>
