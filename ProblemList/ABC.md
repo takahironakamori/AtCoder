@@ -12,6 +12,26 @@
   </tr>
   
   <tr>
+    <td>009</td>
+    <td><a href="https://atcoder.jp/contests/abc009/tasks/abc009_1">引越し作業</a></td><td>&nbsp;</td>
+    <td><a href="https://atcoder.jp/contests/abc009/tasks/abc009_2">心配性な富豪、ファミリーレストランに行く。</a></td><td>&nbsp;</td>
+    <td><a href="https://atcoder.jp/contests/abc009/tasks/abc009_3">辞書式順序ふたたび</a></td><td>&nbsp;</td>
+    <td><a href="https://atcoder.jp/contests/abc009/tasks/abc009_4">漸化式</a></td><td>&nbsp;</td>
+    <td align="center">−</td><td align="center">−</td>
+    <td align="center">−</td><td align="center">−</td>
+  </tr>
+  
+  <tr>
+    <td>008</td>
+    <td><a href="https://atcoder.jp/contests/abc008/tasks/abc008_1">アルバム</a></td><td>&nbsp;</td>
+    <td><a href="https://atcoder.jp/contests/abc008/tasks/abc008_2">投票</a></td><td><a href="./ABC008/B">AC</a></td>
+    <td><a href="https://atcoder.jp/contests/abc008/tasks/abc008_3">コイン</a></td><td>&nbsp;</td>
+    <td><a href="https://atcoder.jp/contests/abc008/tasks/abc008_4">金塊ゲーム</a></td><td>&nbsp;</td>
+    <td align="center">−</td><td align="center">−</td>
+    <td align="center">−</td><td align="center">−</td>
+  </tr>
+  
+  <tr>
     <td>007</td>
     <td><a href="https://atcoder.jp/contests/abc007/tasks/abc007_1">植木算</a></td><td><a href="./ABC007/A">AC</a></td>
     <td><a href="https://atcoder.jp/contests/abc007/tasks/abc007_2">辞書式順序</a></td><td><a href="./ABC007/B">AC</a></td>
