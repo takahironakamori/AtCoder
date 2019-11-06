@@ -12,6 +12,16 @@
   </tr>
   
   <tr>
+    <td>010</td>
+    <td><a href="https://atcoder.jp/contests/abc010/tasks/abc010_1">ハンドルネーム</a></td><td>&nbsp;</td>
+    <td><a href="https://atcoder.jp/contests/abc010/tasks/abc010_2">花占い</a></td><td>&nbsp;</td>
+    <td><a href="https://atcoder.jp/contests/abc010/tasks/abc010_3">浮気調査</a></td><td>&nbsp;</td>
+    <td><a href="https://atcoder.jp/contests/abc010/tasks/abc010_4">浮気予防</a></td><td>&nbsp;</td>
+    <td align="center">−</td><td align="center">−</td>
+    <td align="center">−</td><td align="center">−</td>
+  </tr>
+  
+  <tr>
     <td>009</td>
     <td><a href="https://atcoder.jp/contests/abc009/tasks/abc009_1">引越し作業</a></td><td>&nbsp;</td>
     <td><a href="https://atcoder.jp/contests/abc009/tasks/abc009_2">心配性な富豪、ファミリーレストランに行く。</a></td><td>&nbsp;</td>
