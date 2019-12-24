@@ -4,10 +4,10 @@
 
   [問題はこちら](https://atcoder.jp/contests/abc047/tasks/abc047_a)
 
-- 発想
-  Yesになるのは以下の3パターン
-  a + b = c
-  b + c = a
+- 発想<br>
+  Yesになるのは以下の3パターン<br>
+  a + b = c<br>
+  b + c = a<br>
   a + c = b
   
 
