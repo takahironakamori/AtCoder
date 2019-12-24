@@ -4,7 +4,7 @@
 
   [問題はこちら](https://atcoder.jp/contests/abc048/tasks/abc048_a)
 
-- 発想
+- 発想<br>
   各文字の最初の文字を出力すればいい。<br>
   1 文字目と 3 文字目は A と C で決め打ちでもいい。
   
