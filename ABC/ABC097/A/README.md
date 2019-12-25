@@ -5,8 +5,8 @@
   [問題はこちら](https://atcoder.jp/contests/abc097/tasks/abc097_a)
 
 - 発想<br>
-  b が a 以上だと a、<br>
-  それ以外は a - 1 を出力する。
+  a と c の絶対値が d 以下なら Yes<br>
+  a と b の絶対値が d 以下かつ b と d の絶対値が d 以下なら Yes<br>
   
 
 - コード（C++）
