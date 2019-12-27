@@ -1,6 +1,6 @@
 # AtCoder
 
-## AtCoderの過去問練習
+### AtCoderの過去問練習
 
 AtCoderを開始した当初は Java を使っていましたが、途中から C++ に変更しています。<br>
 問題によっては C++ と Java で AC したコードを記録しています。<br>
