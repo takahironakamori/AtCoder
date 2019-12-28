@@ -4,8 +4,9 @@
 
   [問題はこちら](https://atcoder.jp/contests/abc016/tasks/abc016_1)
 
+
 - 発想<br>
-  M を D で割って余りが 0 の場合は YES を、それ以外は NO を出力する。
+  M を D で割って余りが 0 の場合は YES を、それ以外は NO を出力する。<br>
 
 
 - コード（C++）
