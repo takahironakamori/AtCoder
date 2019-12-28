@@ -4,8 +4,10 @@
 
   [問題はこちら](https://atcoder.jp/contests/abc005/tasks/abc005_1)
 
+
 - 発想<br>
   y / x を出力する<br>
+
 
 - コード（C++）
 
