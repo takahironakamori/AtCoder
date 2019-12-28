@@ -4,8 +4,9 @@
 
   [問題はこちら](https://atcoder.jp/contests/abc006/tasks/abc006_1)
 
+
 - 発想<br>
-  N が 3 で割り切れたら YES を、割り切れない場合は NO を出力する。
+  N が 3 で割り切れたら YES を、割り切れない場合は NO を出力する。<br>
   
 
 - コード（C++）
