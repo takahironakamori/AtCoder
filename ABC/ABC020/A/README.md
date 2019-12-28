@@ -4,10 +4,10 @@
 
   [問題はこちら](https://atcoder.jp/contests/abc020/tasks/abc020_a)
 
+
 - 発想<br>
   Q が 1 のときに、ABC を出力し、<br>
-  Q が 2 のときに、chokudai を出力する。
-
+  Q が 2 のときに、chokudai を出力する。<br>
   
 
 - コード（C++）
