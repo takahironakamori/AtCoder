@@ -4,9 +4,10 @@
 
   [問題はこちら](https://atcoder.jp/contests/abc001/tasks/abc001_1)
 
+
 - 発想<br>
   H1、H2 を取得し、差を出力する。<br>
-  
+
 
 - コード（C++）
 
