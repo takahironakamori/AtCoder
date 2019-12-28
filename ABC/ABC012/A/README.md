@@ -4,6 +4,7 @@
 
   [問題はこちら](https://atcoder.jp/contests/abc012/tasks/abc012_1)
 
+
 - 発想<br>
   入力で得たものを B A の順で出力する。<br>
   
