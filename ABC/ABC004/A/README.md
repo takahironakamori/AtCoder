@@ -4,8 +4,10 @@
 
   [問題はこちら](https://atcoder.jp/contests/abc004/tasks/abc004_1)
 
+
 - 発想<br>
   入力で取得した値に 2 をかけたものを出力する。<br>
+
 
 - コード（C++）
 
