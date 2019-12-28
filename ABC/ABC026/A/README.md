@@ -4,9 +4,9 @@
 
   [問題はこちら](https://atcoder.jp/contests/abc026/tasks/abc026_a)
 
+
 - 発想<br>
-  (A / 2) * (A / 2) を出力する。<br>
-  
+  (A / 2) * (A / 2) を出力する。<br>  
   
 
 - コード（C++）
