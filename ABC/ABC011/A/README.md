@@ -4,6 +4,7 @@
 
   [問題はこちら](https://atcoder.jp/contests/abc011/tasks/abc011_1)
 
+
 - 発想<br>
   n が 12 の場合は 1 を、それ以外の場合は n + 1 を出力する。<br>
   
