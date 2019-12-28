@@ -4,9 +4,10 @@
 
   [問題はこちら](https://atcoder.jp/contests/abc040/tasks/abc040_a)
 
+
 - 発想<br>
   x が n / 2 以下の場合は、 n - x<br>
-  それ以外の場合は、x - 1 を出力する。
+  それ以外の場合は、x - 1 を出力する。<br>
   
 
 - コード（C++）
