@@ -4,8 +4,9 @@
 
   [問題はこちら](https://atcoder.jp/contests/abc021/tasks/abc021_a)
 
+
 - 発想<br>
-  N 回 1 を出力する。
+  N 回 1 を出力する。<br>
   
 
 - コード（C++）
