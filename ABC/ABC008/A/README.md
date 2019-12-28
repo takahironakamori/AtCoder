@@ -4,6 +4,7 @@
 
   [問題はこちら](https://atcoder.jp/contests/abc008/tasks/abc008_1)
 
+
 - 発想<br>
   T - S + 1 を出力する<br>
   
