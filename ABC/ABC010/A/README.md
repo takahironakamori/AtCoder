@@ -4,6 +4,7 @@
 
   [問題はこちら](https://atcoder.jp/contests/abc010/tasks/abc010_1)
 
+
 - 発想<br>
   取得した文字列に "pp" を加えたものを出力する<br>
   
