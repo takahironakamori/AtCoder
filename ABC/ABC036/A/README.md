@@ -4,8 +4,9 @@
 
   [問題はこちら](https://atcoder.jp/contests/abc036/tasks/abc036_a)
 
+
 - 発想<br>
-  B / A（小数点以下切り上げ）をする。
+  B / A（小数点以下切り上げ）をする。<br>
   
 
 - コード（C++）
