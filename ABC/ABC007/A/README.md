@@ -4,6 +4,7 @@
 
   [問題はこちら](https://atcoder.jp/contests/abc007/tasks/abc007_1)
 
+
 - 発想<br>
   n - 1 が答え<br>
   
