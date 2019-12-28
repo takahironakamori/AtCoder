@@ -4,6 +4,7 @@
 
   [問題はこちら](https://atcoder.jp/contests/abc035/tasks/abc035_a)
 
+
 - 発想<br>
   比で計算する。<br>
   
