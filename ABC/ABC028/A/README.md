@@ -4,8 +4,9 @@
 
   [問題はこちら](https://atcoder.jp/contests/abc028/tasks/abc028_a)
 
+
 - 発想<br>
-  分岐を複数する。 
+  分岐を複数する。 <br>
   
 
 - コード（C++）
