@@ -4,8 +4,9 @@
 
   [問題はこちら](https://atcoder.jp/contests/abc071/tasks/abc071_a)
 
+
 - 発想<br>
-  絶対値を比較する。
+  絶対値を比較する。<br>
   
 
 - コード（C++）
