@@ -1,6 +1,6 @@
 ### ABC067
 
-#A - Sharing Cookies
+# A - Sharing Cookies
 
   [問題はこちら](https://atcoder.jp/contests/abc067/tasks/abc067_a)
 
