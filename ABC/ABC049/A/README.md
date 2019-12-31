@@ -4,8 +4,9 @@
 
   [問題はこちら](https://atcoder.jp/contests/abc049/tasks/abc049_a)
 
+
 - 発想<br>
-  a か e か i か o か u かを判定する。 
+  a か e か i か o か u かを判定する。 <br>
 
 
 - コード（C++）
