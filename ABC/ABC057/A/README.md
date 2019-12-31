@@ -4,9 +4,10 @@
 
   [問題はこちら](https://atcoder.jp/contests/abc057/tasks/abc057_a)
 
+
 - 発想<br>
   A + B が 24以上の場合は、A + B から 24 引く<br>
-  そうでない場合は A + B を出猟kする
+  そうでない場合は A + B を出猟kする<br>
   
 
 - コード（C++）
