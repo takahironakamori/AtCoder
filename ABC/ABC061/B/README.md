@@ -4,8 +4,9 @@
 
   [問題はこちら](https://atcoder.jp/contests/abc061/tasks/abc061_b)
 
+
 - 発想<br>
-  A と C 、B と C を比較する<br>
+  要素数 N + 1 の配列を用意して、M 回、a_i および b_i の値を 1 加えていく。<br>
   
 
 - コード（C++）
