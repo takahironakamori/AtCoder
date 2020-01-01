@@ -4,6 +4,7 @@
 
   [問題はこちら](https://atcoder.jp/contests/abc074/tasks/abc074_a)
 
+
 - 発想<br>
   N * N - A を出力する。<br>
   
