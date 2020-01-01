@@ -4,9 +4,10 @@
 
   [問題はこちら](https://atcoder.jp/contests/abc082/tasks/abc082_a)
 
+
 - 発想<br>
   s の各文字を昇順にソートし、t の各文字を降順にソートして s < t ならYesを出力する。<br>
-  それ以外なら No を出力する。
+  それ以外なら No を出力する。<br>
   
 
 - コード（C++）
