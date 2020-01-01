@@ -4,6 +4,7 @@
 
   [問題はこちら](https://atcoder.jp/contests/abc090/tasks/abc090_a)
 
+
 - 発想<br>
   c11 と c22 と c23 をつなげて出力する。<br>
   
