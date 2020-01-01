@@ -4,6 +4,7 @@
 
   [問題はこちら](https://atcoder.jp/contests/abc072/tasks/abc072_b)
 
+
 - 発想<br>
   s を 1 文字おきに出力する。<br>
   
