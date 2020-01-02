@@ -4,6 +4,7 @@
 
   [問題はこちら](https://atcoder.jp/contests/abc100/tasks/abc100_a)
 
+
 - 発想<br>
   A と B が 8 以下であればいい<br>
   
