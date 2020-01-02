@@ -4,6 +4,7 @@
 
   [問題はこちら](https://atcoder.jp/contests/abc107/tasks/abc107_a)
 
+
 - 発想<br>
   N - i + 1 を出力する。<br>
   
