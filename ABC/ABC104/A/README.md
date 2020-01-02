@@ -4,10 +4,11 @@
 
   [問題はこちら](https://atcoder.jp/contests/abc104/tasks/abc104_a)
 
+
 - 発想<br>
   R が 1200 未満であれば ABC<br>
   R が 1200 以上 2800 未満であれば ARC <br>
-  それ以外は、AGC を出力する。
+  それ以外は、AGC を出力する。<br>
   
 
 - コード（C++）
