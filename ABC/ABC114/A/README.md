@@ -4,9 +4,11 @@
 
   [問題はこちら](https://atcoder.jp/contests/abc114/tasks/abc114_a)
 
+
 - 発想<br>
   X が 7 か 5 か 3 の場合 YES を出力する。<br>
   
+
 - コード（C++）
 
   ```cpp
