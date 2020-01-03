@@ -4,6 +4,7 @@
 
   [問題はこちら](https://atcoder.jp/contests/abc124/tasks/abc124_a)
 
+
 - 発想<br>
   A == B ならば A + B<br>
   A < B ならば B + B - 1<br>
