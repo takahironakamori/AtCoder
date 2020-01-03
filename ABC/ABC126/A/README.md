@@ -4,6 +4,7 @@
 
   [問題はこちら](https://atcoder.jp/contests/abc126/tasks/abc126_a)
 
+
 - 発想<br>
   K 文字目を小文字に変えるが、ASCIIコードを利用する方法（C++ のコード）や<br>
   文字を比較する方法（Java のコード）がある。
