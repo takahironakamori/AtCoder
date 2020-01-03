@@ -4,8 +4,9 @@
 
   [問題はこちら](https://atcoder.jp/contests/abc116/tasks/abc116_a)
 
+
 - 発想<br>
-  AB * BC / 2 を出力する。
+  AB * BC / 2 を出力する。<br>
   
 
 - コード（C++）
