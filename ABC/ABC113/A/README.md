@@ -4,6 +4,7 @@
 
   [問題はこちら](https://atcoder.jp/contests/abc113/tasks/abc113_a)
 
+
 - 発想<br>
   X + Y / 2 を出力する。<br>
 
