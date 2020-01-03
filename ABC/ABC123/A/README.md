@@ -4,6 +4,7 @@
 
   [問題はこちら](https://atcoder.jp/contests/abc123/tasks/abc123_a)
 
+
 - 発想<br>
   5 * 4 / 2 = 10 通りを確認する。（Javaのコード）<br>
   または、e - a が k 未満か否かで判断する。（C++のコード）<br>
