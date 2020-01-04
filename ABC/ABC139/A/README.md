@@ -4,6 +4,7 @@
 
   [問題はこちら](https://atcoder.jp/contests/abc139/tasks/abc139_a)
 
+
 - 発想<br>
   1 文字ずつ同じ文字の数を数える。<br>
   
