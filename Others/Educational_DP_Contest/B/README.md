@@ -31,8 +31,6 @@
       cin >> h[i];
     }
 
-    int answer = 0;
-
     vector<int> dp(N+1);
 
     fill(dp.begin(), dp.end(), 1000000000);

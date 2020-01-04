@@ -14,8 +14,6 @@ int main() {
     cin >> a[i] >> b[i] >> c[i];
   }
 
-  int answer = 0;
-
   // dp[i][0]:a dp[i][1]:b dp[i][2]:c
   vector<vector<int>> dp(N+1,vector<int>(3));
 

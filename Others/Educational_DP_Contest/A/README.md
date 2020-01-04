@@ -30,8 +30,6 @@
       cin >> h[i];
     }
 
-    int answer = 0;
-
     vector<int> dp(N+1);
 
     dp[1] = 0;
