@@ -4,8 +4,9 @@
 
   [問題はこちら](https://atcoder.jp/contests/abc144/tasks/abc144_a)
 
+
 - 発想<br>
-  A か B が10以上の場合は -1、それ以外の場合は A * B する。 
+  A か B が10以上の場合は -1、それ以外の場合は A * B する。 <br>
   
 
 - コード（C++）
