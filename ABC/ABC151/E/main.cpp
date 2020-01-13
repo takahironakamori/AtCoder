@@ -1,79 +1,113 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// mod（素数だけ）の処理を忘れさせてくれるライブラリ
+// https://github.com/atcoder-live/library/blob/master/mint.cpp
+const int mod = 1000000007;
+struct mint {
+  long long x;
+  mint(long long x = 0):x((x % mod + mod) % mod) {}
+  mint operator-() const {return mint(-x);}
+  mint& operator+=(const mint a) {
+    if ((x += a.x) >= mod) x -= mod;
+    return *this;
+  }
+  mint& operator-=(const mint a) {
+    if ((x += mod - a.x) >= mod) x -= mod;
+    return *this;
+  }
+  mint& operator*=(const mint a) {
+    (x *= a.x) %= mod;
+    return *this;
+  }
+  mint operator+(const mint a) const {
+    mint res(*this);
+    return res+=a;
+  }
+  mint operator-(const mint a) const {
+    mint res(*this);
+    return res-=a;
+  }
+  mint operator*(const mint a) const {
+    mint res(*this);
+    return res*=a;
+  }
+  mint pow(long long t) const {
+    if (!t) return 1;
+    mint a = pow(t>>1);
+    a *= a;
+    if (t&1) a *= *this;
+    return a;
+  }
+  mint inv() const {
+    return pow(mod-2);
+  }
+  mint& operator/=(const mint a) {
+    return (*this) *= a.inv();
+  }
+  mint operator/(const mint a) const {
+    mint res(*this);
+    return res /= a;
+  }
+};
+
+// n_C_kを求めるライブラリ
+// mint.cppが必要
+// https://github.com/atcoder-live/library/blob/master/combination.cpp
+struct combination {
+  vector<mint> fact, ifact;
+  combination(int n):fact(n+1),ifact(n+1) {
+    assert(n < mod);
+    fact[0] = 1;
+    for (int i = 1; i <= n; i++) {
+      fact[i] = fact[i-1] * i;
+    }
+    ifact[n] = fact[n].inv();
+    for (int i = n; i >= 1; i--) {
+      ifact[i-1] = ifact[i] * i;
+    }
+  }
+  mint operator()(int n, int k){
+    if (k < 0 || k > n) {
+      return 0; 
+    } else {
+      return fact[n] * ifact[k] * ifact[n-k];
+    }
+  }
+};
+
 int main() {
 
-  int sx;
-  int sy;
-  int INF = 999999;
+  int N, K;
+  cin >> N >> K;
 
-  vector<vector<int>> count(21, vector<int>(21));
-  vector<vector<int>> count_(21, vector<int>(21));
-
-  deque<pair<int,int>> que;
-
-  vector<int> dx = {0, 1, 0, -1};
-  vector<int> dy = {1, 0, -1, 0};
-
-  int H, W;
-  cin >> H >> W;
-
-  vector<string> S;
-  S.resize(H);
-
-  for (int i = 0; i < H; i++) {
-    cin >> S[i];
+  vector<int> A(N);
+  for (int i = 0; i < N; i++) {
+    cin >> A[i];
   }
 
-  for (int i = 0; i < H; i++) {
-    for (int j = 0; j < W; j++) {
-      count_[i][j] = INF;
-    }
+  sort(A.begin(), A.end());
+
+  // combinationの初期化
+  // n を N よりちょっと多めに
+  combination c(N+5);
+
+  // 最大値の総和
+  mint answer = 0;
+
+  for (int i = 0; i < N; i++) {
+    mint count = c(i, K-1);
+    answer += count * A[i];
   }
 
-  count = count_;
+  // 最小値の総和
+  reverse(A.begin(), A.end());
 
-  int answer = 0;
-
-  for (int j = 0; j < H; j++) {
-    for (int k = 0; k < W; k++) {
-
-      if (S[j][k] == '.') {
-
-        sx = k;
-        sy = j;
-
-        que.clear();
-        que.push_back(make_pair(sy, sx));
-
-        count = count_;
-        count[sy][sx] = 0;
-
-        while (!que.empty()) {
-
-          pair<int,int> p = que.front();
-          que.pop_front();
-
-          for (int i = 0; i < 4; i++) {
-
-            int dx_ = p.second + dx[i];
-            int dy_ = p.first + dy[i];
-
-            if (0 <= dy_ && dy_ < H && 0 <= dx_ && dx_ < W && count[dy_][dx_] == INF && S[dy_][dx_] == '.'){
-              count[dy_][dx_] = count[p.first][p.second] + 1;
-              answer = max(answer, count[dy_][dx_]);
-              que.push_back(make_pair(dy_, dx_));
-            }
-
-          }
-
-        }
-
-      }
-
-    }
+  for (int i = 0; i < N; i++) {
+    mint count = c(i, K-1);
+    answer -= count * A[i];
   }
 
-  cout << answer << endl;
+  cout << answer.x << endl;
 
 }
