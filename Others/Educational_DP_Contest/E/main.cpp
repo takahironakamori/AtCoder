@@ -3,45 +3,40 @@ using namespace std;
 
 int main() {
 
-int INF = 1000000000;
+  string s, t;
+  cin >> s >> t;
 
-int N, W;
-cin >> N >> W;
+  vector<vector<int>> dp(s.size() + 1, vector<int>(t.size() + 1));
 
-vector<int> w(N + 1);
-vector<int> v(N + 1);
-int V = 0;
-for (int i = 0; i < N; i++) {
-  cin >> w[i] >> v[i];
-  V = max(V, v[i]);
-}
+  dp[0][0] = 0;
 
-vector<vector<int>> dp(N + 1, vector<int>(N * V + 1));
-
-for (int i = 0; i < N; i++) {
-  fill(dp[i].begin(), dp[i].end(), INF);
-}
-
-dp[0][0] = 0;
-
-for (int i = 0; i < N; i++) {
-  for (int j = 0; j <= N * V; j++) {
-    if (j < v[i]) {
-      dp[i + 1][j] = dp[i][j];
-    } else {
-      dp[i + 1][j] = min(dp[i][j], dp[i][j - v[i]] + w[i]);
+  for (int i = 0; i < s.size(); i++) {
+    for (int j = 0; j < t.size(); j++) {
+      if (s[i] == t[j]) {
+        dp[i + 1][j + 1] = dp[i][j]+1;
+      } else {
+        dp[i + 1][j + 1] = max(dp[i][j + 1], dp[i + 1][j]);
+      }
     }
   }
-}
 
-int answer = 0;
+  string answer = "";
+  int i = s.size();
+  int j = t.size();
 
-for (int i = 0; i <= N * V; i++) {
-  if (dp[N][i] <= W) {
-    answer = max(answer, i);
+  while (i && j) {
+    if (dp[i][j] == dp[i - 1][j]) {
+      i--;
+    } else if (dp[i][j] == dp[i][j - 1]) {
+      j--;
+    } else {
+      i--;
+      j--;
+      answer += s[i];
+    }
   }
-}
 
-cout << answer << endl;
+  reverse(answer.begin(), answer.end());
+  cout << answer << endl;
 
 }
