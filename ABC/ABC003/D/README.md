@@ -8,7 +8,7 @@
 - 発想<br>
   まず、mod や <sub>n</sub> C <sub>k</sub> の計算は、ライブラリを利用すると楽。
 
-  ・[mod のライブラリはこちら](https://github.com/takahironakamori/Programming_Contest_Memo/tree/master/数学/mod)
+  ・[mod のライブラリはこちら](https://github.com/takahironakamori/Programming_Contest_Memo/tree/master/数学/mod)<br>
   ・[<sub>n</sub> C <sub>k</sub> の計算のライブラリはこちら](https://github.com/takahironakamori/Programming_Contest_Memo/tree/master/数学/n_C_k_(mod_p)_を計算する)
 
   【部分点・AC共通】<br>
