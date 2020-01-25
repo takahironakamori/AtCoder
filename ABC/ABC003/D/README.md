@@ -30,8 +30,9 @@
   　D 設置後の X × Y（すなわち X × Y - D）に L を配置するパターン数<br>
   　になるので、<br>
   　<sub>X × Y</sub> C <sub>D</sub> × <sub>X × Y - D</sub> C <sub>L</sub> となる。... (2。<br>
-    　<sub>(X - 1) × Y</sub> C <sub>D</sub> × <sub>(X - 1) × Y - D</sub> C <sub>L</sub> <br>
-
+  ・以下コードのように (2 に加える、引くを繰り返す。
+  ・(1 × (2 が答え。<br>
+    
 
 - 部分点コード (C++)
 
