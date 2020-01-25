@@ -22,14 +22,14 @@
 
   【ACのみ】<br>
   「 4 つの壁に D か L が 1 つ以上ひっついているケース」を数えるのではなく、<br>
-  全てのパターンから「 4 つの壁のどれかの壁に D か L のどちらもひっついていないケース」を引く。
-  包除原理を使う。
+  全てのパターンから「 4 つの壁のどれかの壁に D か L のどちらもひっついていないケース」を引く。<br>
+  包除原理を使う。<br>
   ・X × Y の中で D + L を配置できるパターンの数を計算する。<br>
-　  X × Y ≠ D + L の場合は、<br>
-　　X × Yに D を配置するパターン数 ×<br>
-　　D 設置後の X × Y（すなわち X × Y - D）に L を配置するパターン数になるので、<br>
-   <sub>X × Y</sub> C <sub>D</sub> × <sub>X × Y - D</sub> C <sub>L</sub> となる。... (2。<br>
-   <sub>(X - 1) × Y</sub> C <sub>D</sub> × <sub>(X - 1) × Y - D</sub> C <sub>L</sub> <br>
+  　X × Y ≠ D + L の場合は、<br>
+  　X × Yに D を配置するパターン数 ×<br>
+  　D 設置後の X × Y（すなわち X × Y - D）に L を配置するパターン数になるので、<br>
+  　<sub>X × Y</sub> C <sub>D</sub> × <sub>X × Y - D</sub> C <sub>L</sub> となる。... (2。<br>
+    <sub>(X - 1) × Y</sub> C <sub>D</sub> × <sub>(X - 1) × Y - D</sub> C <sub>L</sub> <br>
 
 
 - 部分点コード (C++)
