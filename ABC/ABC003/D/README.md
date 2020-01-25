@@ -6,10 +6,10 @@
 
 
 - 発想<br>
-  まず、mod や <sup>n</sub> C <sub>k</sub> の計算は、ライブラリを利用すると楽。
+  まず、mod や <sub>n</sub> C <sub>k</sub> の計算は、ライブラリを利用すると楽。
 
   ・[mod のライブラリはこちら](https://github.com/takahironakamori/Programming_Contest_Memo/tree/master/数学/mod)
-  ・[<sup>n</sub> C <sub>k</sub> の計算のライブラリはこちら](https://github.com/takahironakamori/Programming_Contest_Memo/tree/master/数学/n_C_k_(mod_p)_を計算する)
+  ・[<sub>n</sub> C <sub>k</sub> の計算のライブラリはこちら](https://github.com/takahironakamori/Programming_Contest_Memo/tree/master/数学/n_C_k_(mod_p)_を計算する)
 
   【部分点・AC共通】<br>
   ・R × C から X × Y が何個取れるかを数える。 ... (1<br>
@@ -17,7 +17,7 @@
   【部分点のみ】<br>
   ・X × Y の中で D + L を配置できるパターンの数を計算する。<br>
   　X × Y = D + L の場合は、DとLどちらかだけでパターン数は計算できるので、<br>
-    <sup>D + L</sub> C <sub>D</sub> でいい。... (2。
+    <sub>D + L</sub> C <sub>D</sub> でいい。... (2。
 　・(1 × (2 が答え。
 
   【ACのみ】<br>
@@ -28,8 +28,8 @@
 　  X × Y ≠ D + L の場合は、<br>
 　　X × Yに D を配置するパターン数 ×<br>
 　　D 設置後の X × Y（すなわち X × Y - D）に L を配置するパターン数になるので、<br>
-   <sup>X × Y</sub> C <sub>D</sub> × <sup>X × Y - D</sub> C <sub>L</sub> となる。... (2。<br>
-   <sup>(X - 1) × Y</sub> C <sub>D</sub> × <sup>(X - 1) × Y - D</sub> C <sub>L</sub> <br>
+   <sub>X × Y</sub> C <sub>D</sub> × <sub>X × Y - D</sub> C <sub>L</sub> となる。... (2。<br>
+   <sub>(X - 1) × Y</sub> C <sub>D</sub> × <sub>(X - 1) × Y - D</sub> C <sub>L</sub> <br>
 
 
 - 部分点コード (C++)
