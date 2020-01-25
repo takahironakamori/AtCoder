@@ -27,9 +27,10 @@
   ・X × Y の中で D + L を配置できるパターンの数を計算する。<br>
   　X × Y ≠ D + L の場合は、<br>
   　X × Yに D を配置するパターン数 ×<br>
-  　D 設置後の X × Y（すなわち X × Y - D）に L を配置するパターン数になるので、<br>
+  　D 設置後の X × Y（すなわち X × Y - D）に L を配置するパターン数<br>
+  　になるので、<br>
   　<sub>X × Y</sub> C <sub>D</sub> × <sub>X × Y - D</sub> C <sub>L</sub> となる。... (2。<br>
-    <sub>(X - 1) × Y</sub> C <sub>D</sub> × <sub>(X - 1) × Y - D</sub> C <sub>L</sub> <br>
+    　<sub>(X - 1) × Y</sub> C <sub>D</sub> × <sub>(X - 1) × Y - D</sub> C <sub>L</sub> <br>
 
 
 - 部分点コード (C++)
