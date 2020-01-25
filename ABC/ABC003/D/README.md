@@ -32,9 +32,9 @@
   　<sub>X × Y</sub> C <sub>D</sub> × <sub>X × Y - D</sub> C <sub>L</sub> となる。... (2。<br>
   ・以下コードのように (2 に加える、引くを繰り返す。
   ・(1 × (2 が答え。<br>
-    
 
-- 部分点コード (C++)
+
+- 部分点コード (C++) main2.cpp
 
   ```cpp
   #include <bits/stdc++.h>
@@ -138,7 +138,7 @@
   }
 
 
-- ACコード（C++）
+- ACコード（C++）main.cpp
 
   ```cpp
   #include <bits/stdc++.h>
