@@ -6,13 +6,13 @@ int R, G, B;
 
 long long cost(long long pos, long long count) {
   if (G + B <= count) {
-    // R を配置
+    // R を配置したときの移動回数
     return abs(400 - pos);
   } else if (B <= count) {
-    // G を配置
+    // G を配置したときの移動回数
     return abs(500 - pos);
   } else {
-    // B を配置
+    // B を配置したときの移動回数
     return abs(600 - pos);
   }
 }
