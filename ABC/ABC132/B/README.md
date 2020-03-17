@@ -1,8 +1,8 @@
 ### ABC132
 
-# A - Fifty-Fifty
+# B - Ordinary Number
 
-  [問題はこちら](https://atcoder.jp/contests/abc132/tasks/abc132_a)
+  [問題はこちら](https://atcoder.jp/contests/abc132/tasks/abc132_b)
 
 
 - 発想<br>
@@ -32,7 +32,7 @@
 
     for (int i = 1; i < n-1; i++) {
       if (p[i] < p[i + 1] && p[i - 1] < p[i]) {
-        answer++; 
+        answer++;
       } else if (p[i] < p[i - 1] && p[i + 1] < p[i]){
         answer++;
       }
@@ -79,4 +79,3 @@
 
   }
   ```
-    
