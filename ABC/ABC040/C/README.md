@@ -27,8 +27,6 @@
       cin >> a[i];
     }
 
-    long long answer = 0;
-
     vector<long long> dp(N+1);
 
     dp[0] = 0;
