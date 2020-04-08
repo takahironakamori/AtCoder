@@ -1,14 +1,14 @@
 ### ABC011
 
-# B - 名前の確認
+# C - 123引き算
 
-  [問題はこちら](https://atcoder.jp/contests/abc011/tasks/abc011_2)
+  [問題はこちら](https://atcoder.jp/contests/abc011/tasks/abc011_3)
 
 ## 発想
 
   Nにたどり着くために何手必要かを保持するものでDPする。<br>
   後ろからする方がやりやすい。
-  
+
 
 ## コード（C++）
 
