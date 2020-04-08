@@ -7,11 +7,9 @@
 
 ## 発想
 
-  各行、各列について飴が何個あるかを計算する。<br>
-  次に飴がX個ある行（列）がY個あるという情報を、行ごと、列ごとに集計する。<br>
-  和がK個となるマス数、すなわち、(行からi個の飴) ×（列からK-i個の飴）という組み合わせをi=0,1,...Kについて集計する。<br>
-  起点に飴があり、和がK個となるマス数だけ引く。<br>
-  起点に飴があり、和がK+1となるマス数だけ足す。
+  「頂点1に隣接する辺を除いたグラフ」の全点対の最短経路をあらかじめ計算しておく。<br>
+  頂点1に隣接する頂点のうちどの2つを閉路に含めるか全通り試す。<br>
+  前計算した最短経路の結果と合わせて最短経路の長さを求める。
 
 
 ## コード（C++）
@@ -22,37 +20,55 @@
 
   int main() {
 
-    int N;
-    cin >> N;
+    int R, C, K, N;
+    cin >> R >> C >> K >> N;
 
-    string S;
-    cin >> S;
+    vector<int> r(N);
+    vector<int> c(N);
 
-    bool flg = true;
-    int answer = 0;
-    string current = "";
+    // 各行、各列に飴が何個あるのか
+    vector<int> countCandyR(100010);
+    vector<int> countCandyC(100010);
 
-    while (flg) {
-      if (answer == 0) {
-        current += "b";
-      } else if (answer % 3 == 1) {
-        current = "a" + current + "c";
-      } else if (answer % 3 == 2) {
-        current = "c" + current + "a";
-      } else if (answer % 3 == 0 && 0 < answer) {
-        current = "b" + current + "b";
+    for (int i = 0; i < N; i++) {
+      int r_, c_;
+      cin >> r_ >> c_;
+      r[i] = r_ - 1;
+      c[i] = c_ - 1;
+      countCandyR[r[i]]++;
+      countCandyC[c[i]]++;
+    }
+
+    // 飴がX個あるのは何行（何列）あるか
+    vector<int> countRows(100010);
+    vector<int> countColumns(100010);
+
+    for (int i = 0; i < R; i++) {
+      countRows[countCandyR[i]]++;
+    }
+
+    for (int i = 0; i < C; i++) {
+      countColumns[countCandyC[i]]++;
+    }
+
+    long long answer = 0;
+
+    for (int i = 0; i <= K; i++) {
+      answer += (long long) countRows[i] * countColumns[K - i];
+    }
+
+    for (int i = 0; i < N; i++) {
+      if (countCandyR[r[i]] + countCandyC[c[i]] == K) {
+        answer--;
       }
-      if (S == current) {
-        flg = false;
-      } else if (N <= current.size()) {
-        flg = false;
-        answer = -1;
-      } else {
+      if (countCandyR[r[i]] + countCandyC[c[i]] == K + 1) {
         answer++;
       }
     }
 
     cout << answer << endl;
+
+    return 0;
 
   }
   ```
