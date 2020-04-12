@@ -6,7 +6,7 @@
 
 - 発想<br>
   後ろから考える。<br>
-  B<sub>M<sub> のお客さんが食べることができるのは、B<sub>M</sub> - T から B<sub>M</sub> まで。<br>
+  B<sub>M</sub> のお客さんが食べることができるのは、B<sub>M</sub> - T から B<sub>M</sub> まで。<br>
   この範囲内の A<sub>i</sub>があればいい。<br>
   ここでの A<sub>i</sub> についても大きい順から調べていく。<br>
   B より先に A が調べ終わるとたこ焼きを割り当てることができないので no となる。s
