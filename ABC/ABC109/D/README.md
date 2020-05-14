@@ -7,7 +7,7 @@
 
 ## 発想
 
-  <img src="image.png" width="480px" height="auto" alt="">
+  <img src="image.png" width="640px" height="auto" alt="">
 
 
 ## コード（C++）
