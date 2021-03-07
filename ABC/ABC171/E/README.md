@@ -9,7 +9,7 @@
 
   A<sub>2</sub>からA<sub>N</sub>までのxorをAとして、<br>
   A<sub>1</sub>からA<sub>N</sub>までのxorをBとすると、<br>
-  A xor B は A<sub>1<sub>となる。
+  A xor B は A<sub>1</sub>となる。
 
 
 ## コード（C++）
