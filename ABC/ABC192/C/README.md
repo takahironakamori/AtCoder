@@ -1,4 +1,4 @@
-### ABC191
+### ABC192
 
 # C - Kaprekar Number
 
