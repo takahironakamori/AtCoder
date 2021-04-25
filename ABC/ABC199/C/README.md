@@ -8,7 +8,11 @@
 ## 発想
 
 　・
-  #include <bits/stdc++.h>
+
+## コード（C++）
+
+```cpp
+#include <bits/stdc++.h>
 using namespace std;
 
 
