@@ -59,12 +59,12 @@
 ```json
 [
   {
-    "submission_id": 1234571,                  # 提出id
-    "problem_id": "abc300_a",                  # 対象の問題（コンテスト名_問題）
-    "result": "AC",                            # 提出結果
-    "execution_time": 58,                      # 実行時間
-    "submission_time": "2024-03-14T12:40:05Z", # 提出日時
-    "start_time": "2024-03-14T12:30:00Z"       # 開始日時
+    "submission_id": 1234571,                  // 提出id
+    "problem_id": "abc300_a",                  // 対象の問題（コンテスト名_問題）
+    "result": "AC",                            // 提出結果
+    "execution_time": 58,                      // 実行時間
+    "submission_time": "2024-03-14T12:40:05Z", // 提出日時
+    "start_time": "2024-03-14T12:30:00Z"       // 開始日時
   },
   {
     "submission_id": 1234573,
