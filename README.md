@@ -7,6 +7,7 @@
 ```
 /submissions/
 │   ├── abc/
+│   │   ├── contest_results.json #コンテスト成績のデータ
 │   │   ├── abc300/
 |   │   │   ├── meta.json # ABC300の各問題の難易度とタグを記録
 |   │   │   ├── submission.json # ABC300の提出履歴データ
@@ -17,6 +18,27 @@
 ```
 
 ## ファイルの説明
+
+### `contest_results.json`
+
+```json
+[
+    {
+        "contest_id": "abc300",
+        "rank": 1250,
+        "score": 800,
+        "performance": 1200,
+        "contest_time": "2024-03-14T12:00:00Z"
+    },
+    {
+        "contest_id": "abc301",
+        "rank": 950,
+        "score": 1000,
+        "performance": 1400,
+        "contest_time": "2024-03-21T12:00:00Z"
+    }
+]
+```
 
 ### `meta.json`
 
@@ -37,18 +59,20 @@
 ```json
 [
   {
-    "submission_id": 1234571,
-    "problem_id": "abc300_a",
-    "result": "AC",
-    "execution_time": 58,
-    "submission_time": "2024-03-14T12:40:05Z"
+    "submission_id": 1234571,                  # 提出id
+    "problem_id": "abc300_a",                  # 対象の問題（コンテスト名_問題）
+    "result": "AC",                            # 提出結果
+    "execution_time": 58,                      # 実行時間
+    "submission_time": "2024-03-14T12:40:05Z", # 提出日時
+    "start_time": "2024-03-14T12:30:00Z"       # 開始日時
   },
   {
     "submission_id": 1234573,
     "problem_id": "abc300_b",
     "result": "WA",
     "execution_time": 0,
-    "submission_time": "2024-03-14T12:20:05Z"
+    "submission_time": "2024-03-14T12:20:05Z",
+    "start_time": "2024-03-14T12:10:00Z"
   }
 ]
 ```
