@@ -1,0 +1,20 @@
+[
+  {
+      "submission_id": 1234571,
+      "problem_id": "abc000_a",
+      "result": "AC",
+      "execution_time": 58
+  },
+  {
+      "submission_id": 1234573,
+      "problem_id": "abc000_b",
+      "result": "WA",
+      "execution_time": 0
+  },
+  {
+      "submission_id": 1234575,
+      "problem_id": "abc000_b",
+      "result": "AC",
+      "execution_time": 120
+  }
+]

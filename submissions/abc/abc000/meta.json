@@ -1,0 +1,5 @@
+{
+  "abc000_a": {"difficulty": 200, "tags": ["math", "implementation"]},
+  "abc000_b": {"difficulty": 400, "tags": ["greedy"]},
+  "abc000_c": {"difficulty": 600, "tags": ["dp"]}
+}
