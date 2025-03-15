@@ -4,12 +4,12 @@
 
 ## リポジトリのディレクトリ構成
 ```
+contest_info.json #コンテストの各問題のデータ
+contest_results.json #コンテスト成績のデータ
+contest_submissions.json #各問題の提出に関するデータ
 /submissions/
-│   ├── contest_results.json #コンテスト成績のデータ
 │   ├── abc/
 │   │   ├── abc300/
-|   │   │   ├── meta.json # ABC300の各問題の難易度とタグを記録
-|   │   │   ├── submission.json # ABC300の提出履歴データ
 |   │   │   ├── a/
 │   │   │   │   └── 1234571.cpp # 提出データ
 |   │   │   ├── b/
