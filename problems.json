@@ -1,3 +1,11 @@
 {
-  "abc275_c": {"difficulty": 760, "tags": []}
+  "abc260_c": {"difficulty": 413, "tags": []},
+  "abc270_b": {"difficulty": 106, "tags": []},
+  "abc275_c": {"difficulty": 760, "tags": []},
+  "abc313_c": {"difficulty": 681, "tags": []},
+  "abc318_c": {"difficulty": 400, "tags": ["累積和"]},
+  "abc331_b": {"difficulty": 182, "tags": ["全パターンを試す"]},
+  "abc345_c": {"difficulty": 469, "tags": []},
+  "abc354_c": {"difficulty": 441, "tags": []},
+  "abc371_c": {"difficulty": 849, "tags": ["順列全探索"]}
 }

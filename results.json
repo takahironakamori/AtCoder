@@ -1416,9 +1416,9 @@
     "comment": ""
   },
   {
-    "contest_id": "abc388",
+    "contest_id": "abc387",
     "contest_time": "2025-01-04T21:00:00Z",
-    "url" : "https://atcoder.jp/contests/abc388",
+    "url" : "https://atcoder.jp/contests/abc387",
     "rank": 2829,
     "participants": 10549,
     "score": 650,
@@ -1427,7 +1427,7 @@
     "comment": ""
   },
   {
-    "contest_id": "abc389",
+    "contest_id": "abc388",
     "contest_time": "2025-01-11T21:00:00Z",
     "url" : "https://atcoder.jp/contests/abc388",
     "rank": 6161,
