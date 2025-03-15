@@ -4,9 +4,9 @@
 
 ## リポジトリのディレクトリ構成
 ```
-contest_info.json #コンテストの各問題のデータ
-contest_results.json #コンテスト成績のデータ
-contest_submissions.json #各問題の提出に関するデータ
+problems.json #コンテストの各問題のデータ
+results.json #コンテスト成績のデータ
+submissions.json #各問題の提出に関するデータ
 /submissions/
 │   ├── abc/
 │   │   ├── abc300/
@@ -18,7 +18,20 @@ contest_submissions.json #各問題の提出に関するデータ
 
 ## リポジトリ内のjsonのフォーマット
 
-### contest_results.json
+### problems.json
+
+```json
+{
+  "abc300_a": {"difficulty": 200, "tags": ["math", "implementation"]},
+  "abc300_b": {"difficulty": 400, "tags": ["greedy"]},
+  "abc300_c": {"difficulty": 600, "tags": ["dp"]}
+}
+```
+
+- difficulty : 難易度。AtCoder Problemsから引用。
+- tags : 問題のカテゴリ
+
+### results.json
 
 ```json
 [
@@ -63,20 +76,7 @@ contest_submissions.json #各問題の提出に関するデータ
 - new_rating : 更新後のレート
 - comment : 感想
 
-### meta.json
-
-```json
-{
-  "abc300_a": {"difficulty": 200, "tags": ["math", "implementation"]},
-  "abc300_b": {"difficulty": 400, "tags": ["greedy"]},
-  "abc300_c": {"difficulty": 600, "tags": ["dp"]}
-}
-```
-
-- difficulty : 難易度。AtCoder Problemsから引用。
-- tags : 問題のカテゴリ
-
-### submission.json
+### submissions.json
 
 ```json
 [
