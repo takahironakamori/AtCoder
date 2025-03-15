@@ -6,8 +6,8 @@
 
 ```
 /submissions/
+│   ├── contest_results.json #コンテスト成績のデータ
 │   ├── abc/
-│   │   ├── contest_results.json #コンテスト成績のデータ
 │   │   ├── abc300/
 |   │   │   ├── meta.json # ABC300の各問題の難易度とタグを記録
 |   │   │   ├── submission.json # ABC300の提出履歴データ
@@ -23,22 +23,32 @@
 
 ```json
 [
-    {
-        "contest_id": "abc300",
-        "rank": 1250,
-        "score": 800,
-        "performance": 1200,
-        "contest_time": "2024-03-14T12:00:00Z",
-        "comment": "A問題が難しかった"
-    },
-    {
-        "contest_id": "abc301",
-        "rank": 950,
-        "score": 1000,
-        "performance": 1400,
-        "contest_time": "2024-03-21T12:00:00Z",
-        "comment": "A問題が難しかった"
-    }
+  {
+    "contest_id": "abc300",
+    "url": "https://atcoder.jp/contests/abc300",
+    "rank": 1250,
+    "participants": 5500,
+    "score": 800,
+    "performance": 1200,
+    "contest_time": "2024-03-14T12:00:00Z",
+    "wa_count": 3,
+    "tle_count": 1,
+    "new_rating": 1345,
+    "comment": "A問題が難しかった"
+  },
+  {
+    "contest_id": "abc301",
+    "url": "https://atcoder.jp/contests/abc301",
+    "rank": 950,
+    "participants": 5500,
+    "score": 1000,
+    "performance": 1400,
+    "contest_time": "2024-03-21T12:00:00Z",
+    "wa_count": 0,
+    "tle_count": 0,
+    "new_rating": 1345,
+    "comment": "A問題が難しかった"
+  }
 ]
 ```
 
@@ -86,27 +96,3 @@ AC出なかった場合、以下を参考に感想になぜACできなかった�
   }
 ]
 ```
-
-## この Repository のデータを活用して、マイGPT(非公開)が行うこと
-
-### 1.AtCoderの苦手な問題、分野を特定し、苦手を克服するための問題を提案
-
-- ユーザーの過去の解答履歴を分析し、どのジャンル（例：DP、グラフ、貪欲法など）が苦手かを判定
-- 特定の難易度（ABCのC/D/E問題など）での正答率を計算し、苦手パターンを抽出
-- 復習すべき問題の推薦
-
-### 2.以前間違えた問題のうち、解けるようになっているか再挑戦すべき問題をリストアップ
-
-- 解答時間が長すぎた問題を特定し、最適化の練習対象を提示
-- 似たような問題をピックアップして、幅広いパターンに対応できるようにする
-- 提出したコードのアドバイス
-
-### 3.過去に書いたコードの改善点をフィードバック（時間計算量・メモリ最適化など）
-
-- 同じ問題の「最適解」と比較して、効率の良い解法を提案
-- 学習プランの提案
-
-### 4.その他
-
-- 「1週間で○○を克服する」といった個別の学習計画を生成
-- ABC本番に向けたシミュレーション問題を出題
