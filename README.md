@@ -2,8 +2,7 @@
 
 このリポジトリは、AtCoderの提出コードを管理し、苦手な問題の分析や復習に活用するためのものです。
 
-## ディレクトリ構成
-
+## リポジトリのディレクトリ構成
 ```
 /submissions/
 │   ├── contest_results.json #コンテスト成績のデータ
@@ -12,14 +11,14 @@
 |   │   │   ├── meta.json # ABC300の各問題の難易度とタグを記録
 |   │   │   ├── submission.json # ABC300の提出履歴データ
 |   │   │   ├── a/
-│   │   │   │   └── 1234571.cpp # submission_id
+│   │   │   │   └── 1234571.cpp # 提出データ
 |   │   │   ├── b/
-│   │   │   │   ├── 1234573.cpp # submission_id
+│   │   │   │   ├── 1234573.cpp # 提出データ
 ```
 
-## ファイルの説明
+## リポジトリ内のjsonのフォーマット
 
-### `contest_results.json`
+### contest_results.json
 
 ```json
 [
@@ -52,9 +51,19 @@
 ]
 ```
 
-### `meta.json`
+- contest_id : コンテストの略称
+- url : コンテストのウェブページURL
+- rank : 順位
+- participants : 参加者数
+- score : 得点
+- performance : パフォーマンス
+- contest_time : コンテストの日時
+- wa_count : WAの回数
+- tle_count : TLEの回数
+- new_rating : 更新後のレート
+- comment : 感想
 
-各コンテストごとの問題の **難易度やタグ（DP, 貪欲法, グラフ など）** を記録。
+### meta.json
 
 ```json
 {
@@ -64,26 +73,21 @@
 }
 ```
 
-### `submission.json`
+- difficulty : 難易度。AtCoder Problemsから引用。
+- tags : 問題のカテゴリ
 
-各コンテストの 提出履歴（実行時間、結果、提出日時など） を記録。
-AC出なかった場合、以下を参考に感想になぜACできなかったのかを書く。
-
-- 問題が理解できなかった
-- 解法が思いつかなかった
-- 実装ができなかった
-- 実装が間に合わなかった
+### submission.json
 
 ```json
 [
   {
-    "submission_id": 1234571,                  // 提出id
-    "problem_id": "abc300_a",                  // 対象の問題（コンテスト名_問題）
-    "result": "AC",                            // 提出結果
-    "execution_time": 58,                      // 実行時間
-    "submission_time": "2024-03-14T12:40:05Z", // 提出日時
-    "start_time": "2024-03-14T12:30:00Z",      // 開始日時
-    "comment": ""                              // 感想など
+    "submission_id": 1234571,
+    "problem_id": "abc300_a",
+    "result": "AC",
+    "execution_time": 58,
+    "submission_time": "2024-03-14T12:40:05Z",
+    "start_time": "2024-03-14T12:30:00Z", 
+    "comment": ""
   },
   {
     "submission_id": 1234573,
@@ -96,3 +100,22 @@ AC出なかった場合、以下を参考に感想になぜACできなかった�
   }
 ]
 ```
+
+- submission_id : 提出ファイルのid（AtCoderのurlから引用）
+- problem_id : コンテストの略称_問題
+- result : 提出結果(AC, WA, TLE, REなど)
+- execution_time : 実行時間
+- submission_time : 提出日時
+- stati_time : 開始日時
+- comment : コメント
+
+#### コメント
+
+コメントは、特にACできなかった理由を書く。
+
+【例】
+
+- 問題が理解できなかった
+- 解法が思いつかなかった
+- 実装ができなかった
+- 実装が間に合わなかった
