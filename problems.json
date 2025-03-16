@@ -1,6 +1,6 @@
 {
   "abc234_d": {"difficulty": 503, "tags": ["priority_queue"]},
-  "abc236_d": {"difficulty": 1190, "tags": []},
+  "abc236_d": {"difficulty": 1190, "tags": ["組み合わせ最適化"]},
   "abc260_c": {"difficulty": 413, "tags": []},
   "abc270_b": {"difficulty": 106, "tags": []},
   "abc275_c": {"difficulty": 760, "tags": []},
