@@ -187,5 +187,23 @@
     "submission_time": "2024-03-16T14:04:59Z",
     "start_time": "2024-03-16T13:22:00Z",
     "comment": "解法がわからなかった"
+  },
+  {
+    "submission_id": 63872146,
+    "problem_id": "abc347_d",
+    "result": "解説AC",
+    "execution_time": 1,
+    "submission_time": "2024-03-16T15:52:59Z",
+    "start_time": "2024-03-16T15:04:00Z",
+    "comment": "解法がわからなかった"
+  },
+  {
+    "submission_id": 63872666,
+    "problem_id": "abc368_d",
+    "result": "解説AC",
+    "execution_time": 133,
+    "submission_time": "2024-03-16T16:03:13Z",
+    "start_time": "2024-03-16T15:54:00Z",
+    "comment": "解法がわからなかった"
   }
 ]

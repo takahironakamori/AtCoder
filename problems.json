@@ -12,6 +12,8 @@
   "abc331_b": {"difficulty": 182, "tags": ["全パターンを試す"]},
   "abc338_d": {"difficulty": 1234, "tags": []},
   "abc345_c": {"difficulty": 469, "tags": []},
+  "abc347_d": {"difficulty": 1041, "tags": []},
   "abc354_c": {"difficulty": 441, "tags": []},
+  "abc368_d": {"difficulty": 816, "tags": ["dfs"]},
   "abc371_c": {"difficulty": 849, "tags": ["順列全探索"]}
 }
