@@ -169,5 +169,23 @@
     "submission_time": "2024-03-16T00:40:13Z",
     "start_time": "2024-03-15T23:40:00Z",
     "comment": "解法がわからなかった"
+  },
+  {
+    "submission_id": 63867877,
+    "problem_id": "abc290_d",
+    "result": "解説AC",
+    "execution_time": 193,
+    "submission_time": "2024-03-16T13:16:51Z",
+    "start_time": "2024-03-16T12:40:00Z",
+    "comment": "解法がわからなかった"
+  },
+  {
+    "submission_id": 63868876,
+    "problem_id": "abc338_d",
+    "result": "解説AC",
+    "execution_time": 38,
+    "submission_time": "2024-03-16T14:04:59Z",
+    "start_time": "2024-03-16T13:22:00Z",
+    "comment": "解法がわからなかった"
   }
 ]
