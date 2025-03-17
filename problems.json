@@ -1,19 +1,1277 @@
 {
-  "abc234_d": {"difficulty": 503, "tags": ["priority_queue"]},
-  "abc236_d": {"difficulty": 1190, "tags": ["組み合わせ最適化"]},
-  "abc260_c": {"difficulty": 413, "tags": []},
-  "abc270_b": {"difficulty": 106, "tags": []},
-  "abc275_c": {"difficulty": 760, "tags": []},
-  "abc289_d": {"difficulty": 551, "tags": ["DP"]},
-  "abc290_d": {"difficulty": 1036, "tags": []},
-  "abc313_c": {"difficulty": 681, "tags": []},
-  "abc318_c": {"difficulty": 400, "tags": ["累積和"]},
-  "abc320_c": {"difficulty": 851, "tags": ["順列全探索"]},
-  "abc331_b": {"difficulty": 182, "tags": ["全パターンを試す"]},
-  "abc338_d": {"difficulty": 1234, "tags": []},
-  "abc345_c": {"difficulty": 469, "tags": []},
-  "abc347_d": {"difficulty": 1041, "tags": []},
-  "abc354_c": {"difficulty": 441, "tags": []},
-  "abc368_d": {"difficulty": 816, "tags": ["dfs"]},
-  "abc371_c": {"difficulty": 849, "tags": ["順列全探索"]}
+  "abc007_d": {
+    "difficulty": 1244,
+    "tags": ["桁DP"],
+    "url": "https://atcoder.jp/contests/abc007/tasks/abc007_4"
+  },
+  "abc029_d": {
+    "difficulty": 1393,
+    "tags": ["桁DP"],
+    "url": "https://atcoder.jp/contests/abc029/tasks/abc029_d"
+  },
+  "abc032_c": {
+    "difficulty": 1244,
+    "tags": ["しゃくとり法（上級）"],
+    "url": "https://atcoder.jp/contests/abc032/tasks/abc032_c"
+  },
+  "abc038_d": {
+    "difficulty": 1804,
+    "tags": ["平面走査"],
+    "url": "https://atcoder.jp/contests/abc038/tasks/abc038_d"
+  },
+  "abc040_d": {
+    "difficulty": 1656,
+    "tags": ["うしろから考える、両側から考える", "最小共通祖先（LCA）", "Union-Find"],
+    "url": "https://atcoder.jp/contests/abc040/tasks/abc040_d"
+  },
+  "abc077_c": {
+    "difficulty": 1096,
+    "tags": ["固定して考える"],
+    "url": "https://atcoder.jp/contests/abc077/tasks/arc084_a"
+  },
+  "abc085_c": {
+    "difficulty": 584,
+    "tags": ["固定して考える"],
+    "url": "https://atcoder.jp/contests/abc085/tasks/abc085_c"
+  },
+  "abc097_d": {
+    "difficulty": 1270,
+    "tags": ["Union-Find"],
+    "url": "https://atcoder.jp/contests/abc097/tasks/arc097_b"
+  },
+  "abc117_d": {
+    "difficulty": 1423,
+    "tags": ["桁DP"],
+    "url": "https://atcoder.jp/contests/abc117/tasks/abc117_d"
+  },
+  "abc120_d": {
+    "difficulty": 1355,
+    "tags": ["うしろから考える、両側から考える", "Union-Find"],
+    "url": "https://atcoder.jp/contests/abc120/tasks/abc120_d"
+  },
+  "abc127_e": {
+    "difficulty": 1938,
+    "tags": ["桁DP"],
+    "url": "https://atcoder.jp/contests/abc127/tasks/abc127_e"
+  },
+  "abc174_f": {
+    "difficulty": 1495,
+    "tags": ["平面走査"],
+    "url": "https://atcoder.jp/contests/abc174/tasks/abc174_f"
+  },
+  "abc185_f": {
+    "difficulty": 1053,
+    "tags": ["セグメント木"],
+    "url": "https://atcoder.jp/contests/abc185/tasks/abc185_f"
+  },
+  "abc189_c": {
+    "difficulty": 565,
+    "tags": ["最大流問題"],
+    "url": "https://atcoder.jp/contests/abc205/tasks/abc205_f"
+  },
+  "abc190_f": {
+    "difficulty": 1321,
+    "tags": ["セグメント木"],
+    "url": "https://atcoder.jp/contests/abc190/tasks/abc190_f"
+  },
+  "abc205_f": {
+    "difficulty": 2088,
+    "tags": ["Stack"],
+    "url": "https://atcoder.jp/contests/abc189/tasks/abc189_c"
+  },
+  "abc208_e": {
+    "difficulty": 2024,
+    "tags": ["桁DP"],
+    "url": "https://atcoder.jp/contests/abc208/tasks/abc208_e"
+  },
+  "abc217_d": {
+    "difficulty": 802,
+    "tags": ["セグメント木"],
+    "url": "https://atcoder.jp/contests/abc217/tasks/abc217_d"
+  },
+  "abc217_e": {
+    "difficulty": 986,
+    "tags": ["Priority Queue"],
+    "url": "https://atcoder.jp/contests/abc217/tasks/abc217_e"
+  },
+  "abc220_e": {
+    "difficulty": 1593,
+    "tags": ["完全二分木"],
+    "url": "https://atcoder.jp/contests/abc220/tasks/abc220_e"
+  },
+  "abc229_d": {
+    "difficulty": 745,
+    "tags": ["しゃくとり法（上級）"],
+    "url": "https://atcoder.jp/contests/abc229/tasks/abc229_d"
+  },
+  "abc234_d": {
+    "difficulty": 503,
+    "tags": ["Priority Queue"],
+    "url": "https://atcoder.jp/contests/abc234/tasks/abc234_d"
+  },
+  "abc236_d": {
+    "difficulty": 1190,
+    "tags": ["組み合わせ最適化"],
+    "url": "https://atcoder.jp/contests/abc236/tasks/abc236_d"
+  },
+  "abc260_c": {
+    "difficulty": 413,
+    "tags": [],
+    "url": "https://atcoder.jp/contests/abc260/tasks/abc260_c"
+  },
+  "abc270_b": {
+    "difficulty": 106,
+    "tags": [],
+    "url": "https://atcoder.jp/contests/abc270/tasks/abc270_b"
+  },
+  "abc275_c": {
+    "difficulty": 760,
+    "tags": [],
+    "url": "https://atcoder.jp/contests/abc275/tasks/abc275_c"
+  },
+  "abc289_d": {
+    "difficulty": 551,
+    "tags": ["DP（中級）"],
+    "url": "https://atcoder.jp/contests/abc289/tasks/abc289_d"
+  },
+  "abc290_d": {
+    "difficulty": 1036,
+    "tags": [],
+    "url": "https://atcoder.jp/contests/abc290/tasks/abc290_d"
+  },
+  "abc313_c": {
+    "difficulty": 681,
+    "tags": [],
+    "url": "https://atcoder.jp/contests/abc313/tasks/abc313_c"
+  },
+  "abc318_c": {
+    "difficulty": 400,
+    "tags": ["累積和"],
+    "url": "https://atcoder.jp/contests/abc318/tasks/abc318_c"
+  },
+  "abc320_c": {
+    "difficulty": 851,
+    "tags": ["順列全探索"],
+    "url": "https://atcoder.jp/contests/abc320/tasks/abc320_c"
+  },
+  "abc331_b": {
+    "difficulty": 182,
+    "tags": ["全パターンを試す"],
+    "url": "https://atcoder.jp/contests/abc331/tasks/abc331_b"
+  },
+  "abc336_e": {
+    "difficulty": 1538,
+    "tags": ["桁DP"],
+    "url": "https://atcoder.jp/contests/abc336/tasks/abc336_e"
+  },
+  "abc338_d": {
+    "difficulty": 1234,
+    "tags": [],
+    "url": "https://atcoder.jp/contests/abc338/tasks/abc338_d"
+  },
+  "abc345_c": {
+    "difficulty": 469,
+    "tags": [],
+    "url": "https://atcoder.jp/contests/abc345/tasks/abc345_c"
+  },
+  "abc347_d": {
+    "difficulty": 1041,
+    "tags": [],
+    "url": "https://atcoder.jp/contests/abc347/tasks/abc347_d"
+  },
+  "abc348_e": {
+    "difficulty": 1347,
+    "tags": [],
+    "url": "https://atcoder.jp/contests/abc348/tasks/abc348_e"
+  },
+  "abc354_c": {
+    "difficulty": 441,
+    "tags": [],
+    "url": "https://atcoder.jp/contests/abc354/tasks/abc354_c"
+  },
+  "abc368_d": {
+    "difficulty": 816,
+    "tags": ["DFS"],
+    "url": "https://atcoder.jp/contests/abc368/tasks/abc368_d"
+  },
+  "abc371_c": {
+    "difficulty": 849,
+    "tags": ["順列全探索"],
+    "url": "https://atcoder.jp/contests/abc371/tasks/abc371_c"
+  },
+  "abc373_D": {
+    "difficulty": 765,
+    "tags": ["DFS", "BFS"],
+    "url": "https://atcoder.jp/contests/abc373/tasks/abc373_d"
+  },
+  "abc374_D": {
+    "difficulty": 394,
+    "tags": ["順列全探索（上級）"],
+    "url": "https://atcoder.jp/contests/abc374/tasks/abc374_d"
+  },
+  "abc375_D": {
+    "difficulty": 658,
+    "tags": ["累積和"],
+    "url": "https://atcoder.jp/contests/abc375/tasks/abc375_d"
+  },
+  "abc376_c": {
+    "difficulty": 366,
+    "tags": ["BFS"],
+    "url": "https://atcoder.jp/contests/abc376/tasks/abc376_c"
+  },
+  "abc376_d": {
+    "difficulty": 743,
+    "tags": ["BFS"],
+    "url": "https://atcoder.jp/contests/abc376/tasks/abc376_d"
+  },
+  "abc377_d": {
+    "difficulty": 987,
+    "tags": ["しゃくとり法（上級）"],
+    "url": "https://atcoder.jp/contests/abc377/tasks/abc377_d"
+  },
+  "abc378_d": {
+    "difficulty": 587,
+    "tags": ["DFS"],
+    "url": "https://atcoder.jp/contests/abc378/tasks/abc378_d"
+  },
+  "abc379_d": {
+    "difficulty": 745,
+    "tags": ["Queue", "Deque", "データの持ち方を工夫する"],
+    "url": "https://atcoder.jp/contests/abc379/tasks/abc379_d"
+  },
+  "abc380_d": {
+    "difficulty": 849,
+    "tags": ["完全二分木"],
+    "url": "https://atcoder.jp/contests/abc380/tasks/abc380_d"
+  },
+  "abc381_d": {
+    "difficulty": 921,
+    "tags": ["しゃくとり法（上級）", "半分全列挙"],
+    "url": "https://atcoder.jp/contests/abc381/tasks/abc381_d"
+  },
+  "abc382_c": {
+    "difficulty": 476,
+    "tags": ["データの持ち方を工夫する", "しゃくとり法（上級）"],
+    "url": "https://atcoder.jp/contests/abc382/tasks/abc382_c"
+  },
+  "abc382_d": {
+    "difficulty": 685,
+    "tags": ["再帰"],
+    "url": "https://atcoder.jp/contests/abc382/tasks/abc382_d"
+  },
+  "abc383_c": {
+    "difficulty": 750,
+    "tags": ["BFS"],
+    "url": "https://atcoder.jp/contests/abc383/tasks/abc383_c"
+  },
+  "abc383_d": {
+    "difficulty": 884,
+    "tags": ["素数列挙"],
+    "url": "https://atcoder.jp/contests/abc383/tasks/abc383_d"
+  },
+  "abc384_c": {
+    "difficulty": 187,
+    "tags": ["bit全探索"],
+    "url": "https://atcoder.jp/contests/abc384/tasks/abc384_c"
+  },
+  "abc384_d": {
+    "difficulty": 666,
+    "tags": ["円環", "しゃくとり法", "周期を考える"],
+    "url": "https://atcoder.jp/contests/abc384/tasks/abc384_d"
+  },
+  "abc385_c": {
+    "difficulty": 446,
+    "tags": ["固定して考える"],
+    "url": "https://atcoder.jp/contests/abc385/tasks/abc385_c"
+  },
+  "abc385_d": {
+    "difficulty": 1171,
+    "tags": ["Map", "Set"],
+    "url": "https://atcoder.jp/contests/abc385/tasks/abc385_d"
+  },
+  "abc385_e": {
+    "difficulty": 1406,
+    "tags": ["木", "部分木"],
+    "url": "https://atcoder.jp/contests/abc385/tasks/abc385_e"
+  },
+  "abc386_d": {
+    "difficulty": 996,
+    "tags": ["固定して考える"],
+    "url": "https://atcoder.jp/contests/abc386/tasks/abc386_d"
+  },
+  "abc387_c": {
+    "difficulty": 1249,
+    "tags": ["桁DP"],
+    "url": "https://atcoder.jp/contests/abc387/tasks/abc387_c"
+  },
+  "abc387_d": {
+    "difficulty": 817,
+    "tags": ["BFS"],
+    "url": "https://atcoder.jp/contests/abc387/tasks/abc387_d"
+  },
+  "abc389_d": {
+    "difficulty": 749,
+    "tags": ["個数を考える", "しゃくとり法（上級）"],
+    "url": "https://atcoder.jp/contests/abc389/tasks/abc389_d"
+  },
+  "abl_e": {
+    "difficulty": -1,
+    "tags": ["遅延評価セグメント木"],
+    "url": "https://atcoder.jp/contests/abl/tasks/abl_e"
+  },
+  "alpc_b": {
+    "difficulty": -1,
+    "tags": ["Fenwick Tree"],
+    "url": "https://atcoder.jp/contests/practice2/tasks/practice2_b"
+  },
+  "alpc_g": {
+    "difficulty": -1,
+    "tags": ["強連結成分分解（SCC）"],
+    "url": "https://atcoder.jp/contests/practice2/tasks/practice2_g"
+  },
+  "alpc_j": {
+    "difficulty": -1,
+    "tags": ["セグメント木"],
+    "url": "https://atcoder.jp/contests/practice2/tasks/practice2_j"
+  },
+  "alpc_k": {
+    "difficulty": -1,
+    "tags": ["遅延評価セグメント木"],
+    "url": "https://atcoder.jp/contests/practice2/tasks/practice2_k"
+  },
+  "alpc_l": {
+    "difficulty": -1,
+    "tags": ["遅延評価セグメント木"],
+    "url": "https://atcoder.jp/contests/practice2/tasks/practice2_l"
+  },
+  "arc036_d": {
+    "difficulty": 2227,
+    "tags": ["Union-Find"],
+    "url": "https://atcoder.jp/contests/arc036/tasks/arc036_d"
+  },
+  "arc065_d": {
+    "difficulty": 1996,
+    "tags": ["Union-Find"],
+    "url": "https://atcoder.jp/contests/arc065/tasks/arc065_b"
+  },
+  "atc001_b": {
+    "difficulty": -1,
+    "tags": ["Union-Find"],
+    "url": "https://atcoder.jp/contests/atc001/tasks/unionfind_a"
+  },
+  "codefestival2017_qualb_c": {
+    "difficulty": -1,
+    "tags": ["二部グラフ", "Union-Find"],
+    "url": "https://atcoder.jp/contests/code-festival-2017-qualb/tasks/code_festival_2017_qualb_c"
+  },
+  "edpc_a": {
+    "difficulty": -1,
+    "tags": ["DP（基礎）"],
+    "url": "https://atcoder.jp/contests/dp/tasks/dp_a"
+  },
+  "edpc_b": {
+    "difficulty": -1,
+    "tags": ["DP（基礎）"],
+    "url": "https://atcoder.jp/contests/dp/tasks/dp_b"
+  },
+  "edpc_c": {
+    "difficulty": -1,
+    "tags": ["DP（基礎）"],
+    "url": "https://atcoder.jp/contests/dp/tasks/dp_c"
+  },
+  "edpc_d": {
+    "difficulty": -1,
+    "tags": ["DP（中級）"],
+    "url": "https://atcoder.jp/contests/dp/tasks/dp_d"
+  },
+  "edpc_e": {
+    "difficulty": -1,
+    "tags": ["DP（中級）"],
+    "url": "https://atcoder.jp/contests/dp/tasks/dp_e"
+  },
+  "edpc_f": {
+    "difficulty": -1,
+    "tags": ["LCS"],
+    "url": "https://atcoder.jp/contests/dp/tasks/dp_f"
+  },
+  "edpc_g": {
+    "difficulty": -1,
+    "tags": ["トポロジカルソート", "DP（上級）"],
+    "url": "https://atcoder.jp/contests/dp/tasks/dp_g"
+  },
+  "edpc_i": {
+    "difficulty": -1,
+    "tags": ["確率", "DP（上級）"],
+    "url": "https://atcoder.jp/contests/dp/tasks/dp_i"
+  },
+  "edpc_j": {
+    "difficulty": -1,
+    "tags": ["期待値", "DP（上級）"],
+    "url": "https://atcoder.jp/contests/dp/tasks/dp_j"
+  },
+  "edpc_k": {
+    "difficulty": -1,
+    "tags": ["ゲーム", "DP（上級）"],
+    "url": "https://atcoder.jp/contests/dp/tasks/dp_k"
+  },
+  "edpc_m": {
+    "difficulty": -1,
+    "tags": ["DP（上級）"],
+    "url": "https://atcoder.jp/contests/dp/tasks/dp_m"
+  },
+  "edpc_n": {
+    "difficulty": -1,
+    "tags": ["DP（上級）"],
+    "url": "https://atcoder.jp/contests/dp/tasks/dp_n"
+  },
+  "edpc_o": {
+    "difficulty": -1,
+    "tags": ["DP（上級）"],
+    "url": "https://atcoder.jp/contests/dp/tasks/dp_o"
+  },
+  "edpc_p": {
+    "difficulty": -1,
+    "tags": ["DP（上級）"],
+    "url": "https://atcoder.jp/contests/dp/tasks/dp_p"
+  },
+  "edpc_q": {
+    "difficulty": -1,
+    "tags": ["bitDP"],
+    "url": "https://atcoder.jp/contests/dp/tasks/dp_q"
+  },
+  "edpc_r": {
+    "difficulty": -1,
+    "tags": ["DP（上級）"],
+    "url": "https://atcoder.jp/contests/dp/tasks/dp_r"
+  },
+  "edpc_s": {
+    "difficulty": -1,
+    "tags": ["DP（上級）"],
+    "url": "https://atcoder.jp/contests/dp/tasks/dp_s"
+  },
+  "edpc_t": {
+    "difficulty": -1,
+    "tags": ["DP（上級）"],
+    "url": "https://atcoder.jp/contests/dp/tasks/dp_t"
+  },
+  "edpc_u": {
+    "difficulty": -1,
+    "tags": ["DP（上級）"],
+    "url": "https://atcoder.jp/contests/dp/tasks/dp_u"
+  },
+  "edpc_v": {
+    "difficulty": -1,
+    "tags": ["全方位DP"],
+    "url": "https://atcoder.jp/contests/dp/tasks/dp_v"
+  },
+  "edpc_w": {
+    "difficulty": -1,
+    "tags": ["DP（上級）", "組み合わせ"],
+    "url": "https://atcoder.jp/contests/dp/tasks/dp_w"
+  },
+  "edpc_x": {
+    "difficulty": -1,
+    "tags": ["DP（上級）"],
+    "url": "https://atcoder.jp/contests/dp/tasks/dp_x"
+  },
+  "edpc_y": {
+    "difficulty": -1,
+    "tags": ["DP（上級）", "組み合わせ"],
+    "url": "https://atcoder.jp/contests/dp/tasks/dp_y"
+  },
+  "edpc_z": {
+    "difficulty": -1,
+    "tags": ["ConvexHullTrick"],
+    "url": "https://atcoder.jp/contests/dp/tasks/dp_z"
+  },
+  "joi2014yo_d": {
+    "difficulty": -1,
+    "tags": ["bitDP"],
+    "url": "https://atcoder.jp/contests/joi2014yo/tasks/joi2014yo_d"
+  },
+  "joi2016ho_a": {
+    "difficulty": -1,
+    "tags": ["DP（上級）"],
+    "url": "https://atcoder.jp/contests/joi2016ho/tasks/joi2016ho_a"
+  },
+  "joi2017yo_d": {
+    "difficulty": -1,
+    "tags": ["DP（上級）"],
+    "url": "https://atcoder.jp/contests/joi2017yo/tasks/joi2017yo_d"
+  },
+  "joisc2010_stairs": {
+    "difficulty": -1,
+    "tags": ["DP（上級）"],
+    "url": "https://atcoder.jp/contests/joisc2010/tasks/joisc2010_stairs"
+  },
+  "past201912_k": {
+    "difficulty": -1,
+    "tags": ["最小共通祖先（LCA）"],
+    "url": "https://atcoder.jp/contests/past201912-open/tasks/past201912_k"
+  },
+  "past202004_k": {
+    "difficulty": -1,
+    "tags": ["DP（中級）"],
+    "url": "https://atcoder.jp/contests/past202004-open/tasks/past202004_k"
+  },
+  "past202004_n": {
+    "difficulty": -1,
+    "tags": ["平面走査"],
+    "url": "https://atcoder.jp/contests/past202004-open/tasks/past202004_n"
+  },
+  "past202005_o": {
+    "difficulty": -1,
+    "tags": ["最小費用流問題"],
+    "url": "https://atcoder.jp/contests/past202005-open/tasks/past202005_o"
+  },
+  "past202010_m": {
+    "difficulty": -1,
+    "tags": ["うしろから考える、両側から考える", "最小共通祖先（LCA）", "Union-Find"],
+    "url": "https://atcoder.jp/contests/past202010-open/tasks/past202010_m"
+  },
+  "past202010_o": {
+    "difficulty": -1,
+    "tags": ["DP（上級）","セグメント木"],
+    "url": "https://atcoder.jp/contests/past202010-open/tasks/past202010_o)"
+  },
+  "past202104_n": {
+    "difficulty": -1,
+    "tags": ["DP（上級）"],
+    "url": "https://atcoder.jp/contests/past202104-open/tasks/past202104_n"
+  },
+  "past202107_m": {
+    "difficulty": -1,
+    "tags": ["最小費用流問題"],
+    "url": "https://atcoder.jp/contests/past202107-open/tasks/past202107_m"
+  },
+  "past202107_n": {
+    "difficulty": -1,
+    "tags": ["平面走査"],
+    "url": "https://atcoder.jp/contests/past202107-open/tasks/past202107_n"
+  },
+  "past202107_o": {
+    "difficulty": -1,
+    "tags": ["DP（上級）", "セグメント木"],
+    "url": "https://atcoder.jp/contests/past202107-open/tasks/past202107_o"
+  },
+  "past202109_k": {
+    "difficulty": -1,
+    "tags": ["最小費用流問題"],
+    "url": "https://atcoder.jp/contests/past202109-open/tasks/past202109_k"
+  },
+  "past202109_m": {
+    "difficulty": -1,
+    "tags": ["固定して考える"],
+    "url": "https://atcoder.jp/contests/past202109-open/tasks/past202109_m"
+  },
+  "past202109_n": {
+    "difficulty": -1,
+    "tags": ["DP（上級）", "セグメント木"],
+    "url": "https://atcoder.jp/contests/past202109-open/tasks/past202109_n"
+  },
+  "pastbook2022_a": {
+    "difficulty": -1,
+    "tags": ["DP（上級）"],
+    "url": "https://atcoder.jp/contests/pastbook2022/tasks/pastbook2022_a"
+  },
+  "pastbook2022_b": {
+    "difficulty": -1,
+    "tags": ["DP（上級）"],
+    "url": "https://atcoder.jp/contests/pastbook2022/tasks/pastbook2022_b"
+  },
+  "pastbook2022_c": {
+    "difficulty": -1,
+    "tags": ["DP（上級）"],
+    "url": "https://atcoder.jp/contests/pastbook2022/tasks/pastbook2022_c"
+  },
+  "pastbook2022_d": {
+    "difficulty": -1,
+    "tags": ["最小共通祖先（LCA）"],
+    "url": "https://atcoder.jp/contests/pastbook2022/tasks/pastbook2022_d"
+  },
+  "pastbook2022_e": {
+    "difficulty": -1,
+    "tags": ["最大流問題"],
+    "url": "https://atcoder.jp/contests/pastbook2022/tasks/pastbook2022_e"
+  },
+  "pastbook2022_f": {
+    "difficulty": -1,
+    "tags": ["最小費用流問題"],
+    "url": "https://atcoder.jp/contests/pastbook2022/tasks/pastbook2022_f"
+  },
+  "pastbook2022_g": {
+    "difficulty": -1,
+    "tags": ["セグメント木"],
+    "url": "https://atcoder.jp/contests/pastbook2022/tasks/pastbook2022_g"
+  },
+  "pastbook2022_h": {
+    "difficulty": -1,
+    "tags": ["遅延評価セグメント木"],
+    "url": "https://atcoder.jp/contests/pastbook2022/tasks/pastbook2022_h"
+  },
+  "tdpc_a": {
+    "difficulty": -1,
+    "tags": ["DP（基礎）"],
+    "url": "https://atcoder.jp/contests/tdpc/tasks/tdpc_contest"
+  },
+  "tdpc_c": {
+    "difficulty": -1,
+    "tags": ["DP", "完全二分木"],
+    "url": "https://atcoder.jp/contests/tdpc/tasks/tdpc_tournament"
+  },
+  "tdpc_d": {
+    "difficulty": -1,
+    "tags": ["DP", "素因数分解"],
+    "url": "https://atcoder.jp/contests/tdpc/tasks/tdpc_dice"
+  },
+  "tdpc_e": {
+    "difficulty": -1,
+    "tags": ["桁DP"],
+    "url": "https://atcoder.jp/contests/tdpc/tasks/tdpc_number"
+  },
+  "tdpc_f": {
+    "difficulty": -1,
+    "tags": ["DP（上級）"],
+    "url": "https://atcoder.jp/contests/tdpc/tasks/tdpc_semiexp"
+  },
+  "tdpc_g": {
+    "difficulty": -1,
+    "tags": ["DP（上級）"],
+    "url": "https://atcoder.jp/contests/tdpc/tasks/tdpc_lexicographical"
+  },
+  "tdpc_h": {
+    "difficulty": -1,
+    "tags": ["DP（上級）"],
+    "url": "https://atcoder.jp/contests/tdpc/tasks/tdpc_iwi"
+  },
+  "tdpc_i": {
+    "difficulty": -1,
+    "tags": ["DP（上級）"],
+    "url": "https://atcoder.jp/contests/tdpc/tasks/tdpc_knapsack"
+  },
+  "tdpc_j": {
+    "difficulty": -1,
+    "tags": ["bitDP"],
+    "url": "https://atcoder.jp/contests/tdpc/tasks/tdpc_ball"
+  },
+  "tdpc_k": {
+    "difficulty": -1,
+    "tags": ["DP（上級）", "最長増加部分列"],
+    "url": "https://atcoder.jp/contests/tdpc/tasks/tdpc_target"
+  },
+  "tdpc_l": {
+    "difficulty": -1,
+    "tags": ["DP（上級）"],
+    "url": "https://atcoder.jp/contests/tdpc/tasks/tdpc_cat"
+  },
+  "tdpc_m": {
+    "difficulty": -1,
+    "tags": ["DP（上級）"],
+    "url": "https://atcoder.jp/contests/tdpc/tasks/tdpc_house"
+  },
+  "tdpc_n": {
+    "difficulty": -1,
+    "tags": ["木DP"],
+    "url": "https://atcoder.jp/contests/tdpc/tasks/tdpc_tree"
+  },
+  "tdpc_o": {
+    "difficulty": -1,
+    "tags": ["DP（上級）"],
+    "url": "https://atcoder.jp/contests/tdpc/tasks/tdpc_string"
+  },
+  "tdpc_p": {
+    "difficulty": -1,
+    "tags": ["木DP"],
+    "url": "https://atcoder.jp/contests/tdpc/tasks/tdpc_eel"
+  },
+  "tdpc_q": {
+    "difficulty": -1,
+    "tags": ["bitDP"],
+    "url": "https://atcoder.jp/contests/tdpc/tasks/tdpc_concatenation"
+  },
+  "tdpc_r": {
+    "difficulty": -1,
+    "tags": ["DP（上級）", "DAG", "強連結成分分解（SCC）"],
+    "url": "https://atcoder.jp/contests/tdpc/tasks/tdpc_graph"
+  },
+  "tdpc_s": {
+    "difficulty": -1,
+    "tags": ["DP（上級）", "Union-Find"],
+    "url": "https://atcoder.jp/contests/tdpc/tasks/tdpc_grid"
+  },
+  "tdpc_t": {
+    "difficulty": -1,
+    "tags": ["DP（上級）", "きたまさ法"],
+    "url": "https://atcoder.jp/contests/tdpc/tasks/tdpc_fibonacci"
+  },
+  "tessoku_book_a16": {
+    "difficulty": -1,
+    "tags": ["DP（基礎）"],
+    "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_p"
+  },
+  "tessoku_book_a17": {
+    "difficulty": -1,
+    "tags": ["DP（中級）"],
+    "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_q"
+  },
+  "tessoku_book_a20": {
+    "difficulty": -1,
+    "tags": ["LCS"],
+    "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_t"
+  },
+  "tessoku_book_a21": {
+    "difficulty": -1,
+    "tags": ["区間DP"],
+    "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_u"
+  },
+  "tessoku_book_a36": {
+    "difficulty": -1,
+    "tags": ["偶奇を考える"],
+    "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_aj"
+  },
+  "tessoku_book_a37": {
+    "difficulty": -1,
+    "tags": ["足された回数を考える"],
+    "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_ak"
+  },
+  "tessoku_book_a38": {
+    "difficulty": -1,
+    "tags": ["上限値・下限値を考える"],
+    "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_al"
+  },
+  "tessoku_book_a39": {
+    "difficulty": -1,
+    "tags": ["一手先を考える"],
+    "url": "https://atcoder.jp/contests/tessoku-book/tasks/math_and_algorithm_bn"
+  },
+  "tessoku_book_a40": {
+    "difficulty": -1,
+    "tags": ["一手先を考える"],
+    "url": "https://atcoder.jp/contests/tessoku-book/tasks/math_and_algorithm_an"
+  },
+  "tessoku_book_a41": {
+    "difficulty": -1,
+    "tags": ["うしろから考える、両側から考える"],
+    "url": "https://atcoder.jp/contests/tessoku-book/tasks/math_and_algorithm_ao"
+  },
+  "tessoku_book_a42": {
+    "difficulty": -1,
+    "tags": ["固定して考える"],
+    "url": "https://atcoder.jp/contests/tessoku-book/tasks/math_and_algorithm_ap"
+  },
+  "tessoku_book_a43": {
+    "difficulty": -1,
+    "tags": ["問題を言い換える"],
+    "url": "https://atcoder.jp/contests/tessoku-book/tasks/math_and_algorithm_aq"
+  },
+  "tessoku_book_a44": {
+    "difficulty": -1,
+    "tags": ["データの持ち方を工夫する"],
+    "url": "https://atcoder.jp/contests/tessoku-book/tasks/math_and_algorithm_ar"
+  },
+  "tessoku_book_a45": {
+    "difficulty": -1,
+    "tags": ["不変量に着目する"],
+    "url": "https://atcoder.jp/contests/tessoku-book/tasks/math_and_algorithm_as"
+  },
+  "tessoku_book_a56": {
+    "difficulty": -1,
+    "tags": ["文字列のハッシュ"],
+    "url": "https://atcoder.jp/contests/tessoku-book/tasks/math_and_algorithm_bd"
+  },
+  "tessoku_book_a57": {
+    "difficulty": -1,
+    "tags": ["ダブリング"],
+    "url": "https://atcoder.jp/contests/tessoku-book/tasks/math_and_algorithm_be"
+  },
+  "tessoku_book_a58": {
+    "difficulty": -1,
+    "tags": ["セグメント木"],
+    "url": "https://atcoder.jp/contests/tessoku-book/tasks/math_and_algorithm_bf"
+  },
+  "tessoku_book_a59": {
+    "difficulty": -1,
+    "tags": ["セグメント木"],
+    "url": "https://atcoder.jp/contests/tessoku-book/tasks/math_and_algorithm_bg"
+  },
+  "tessoku_book_a65": {
+    "difficulty": -1,
+    "tags": ["木DP"],
+    "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_bm"
+  },
+  "tessoku_book_a67": {
+    "difficulty": -1,
+    "tags": ["最小全域木"],
+    "url": "https://atcoder.jp/contests/tessoku-book/tasks/math_and_algorithm_ci"
+  },
+  "tessoku_book_a69": {
+    "difficulty": -1,
+    "tags": ["二部マッチング問題"],
+    "url": "https://atcoder.jp/contests/tessoku-book/tasks/math_and_algorithm_bq"
+  },
+  "tessoku_book_a71": {
+    "difficulty": -1,
+    "tags": ["総合問題（入門）"],
+    "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_bs"
+  },
+  "tessoku_book_a72": {
+    "difficulty": -1,
+    "tags": ["総合問題（入門）"],
+    "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_bt"
+  },
+  "tessoku_book_a73": {
+    "difficulty": -1,
+    "tags": ["総合問題（入門）"],
+    "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_bu"
+  },
+  "tessoku_book_a74": {
+    "difficulty": -1,
+    "tags": ["総合問題（入門）"],
+    "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_bv"
+  },
+  "tessoku_book_a75": {
+    "difficulty": -1,
+    "tags": ["総合問題（上級）"],
+    "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_bw"
+  },
+  "tessoku_book_a76": {
+    "difficulty": -1,
+    "tags": ["総合問題（上級）"],
+    "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_bx"
+  },
+  "tessoku_book_b17": {
+    "difficulty": -1,
+    "tags": ["DP（中級）"],
+    "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_cp"
+  },
+  "tessoku_book_b20": {
+    "difficulty": -1,
+    "tags": ["LCS（上級）"],
+    "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_cs"
+  },
+  "tessoku_book_b21": {
+    "difficulty": -1,
+    "tags": ["区間DP"],
+    "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_ct"
+  },
+  "tessoku_book_b36": {
+    "difficulty": -1,
+    "tags": ["偶奇を考える"],
+    "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_di"
+  },
+  "tessoku_book_b37": {
+    "difficulty": -1,
+    "tags": ["足された回数を考える"],
+    "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_dj"
+  },
+  "tessoku_book_b38": {
+    "difficulty": -1,
+    "tags": ["上限値・下限値を考える"],
+    "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_dk"
+  },
+  "tessoku_book_b39": {
+    "difficulty": -1,
+    "tags": ["上限値・下限値を考える"],
+    "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_dl"
+  },
+  "tessoku_book_b40": {
+    "difficulty": -1,
+    "tags": ["個数を考える"],
+    "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_dm"
+  },
+  "tessoku_book_b41": {
+    "difficulty": -1,
+    "tags": ["うしろから考える、両側から考える"],
+    "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_dn"
+  },
+  "tessoku_book_b42": {
+    "difficulty": -1,
+    "tags": ["固定して考える"],
+    "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_do"
+  },
+  "tessoku_book_b43": {
+    "difficulty": -1,
+    "tags": ["問題を言い換える"],
+    "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_dp"
+  },
+  "tessoku_book_b44": {
+    "difficulty": -1,
+    "tags": ["データの持ち方を工夫する"],
+    "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_dq"
+  },
+  "tessoku_book_b45": {
+    "difficulty": -1,
+    "tags": ["不変量に着目する"],
+    "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_dr"
+  },
+  "tessoku_book_b56": {
+    "difficulty": -1,
+    "tags": ["文字列のハッシュ"],
+    "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_ec"
+  },
+  "tessoku_book_b57": {
+    "difficulty": -1,
+    "tags": ["ダブリング"],
+    "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_ed"
+  },
+  "tessoku_book_b58": {
+    "difficulty": -1,
+    "tags": ["セグメント木"],
+    "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_ee"
+  },
+  "tessoku_book_b59": {
+    "difficulty": -1,
+    "tags": ["セグメント木"],
+    "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_ef"
+  },
+  "tessoku_book_b65": {
+    "difficulty": -1,
+    "tags": ["DFS"],
+    "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_el"
+  },
+  "tessoku_book_b67": {
+    "difficulty": -1,
+    "tags": ["最小全域木"],
+    "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_en"
+  },
+  "tessoku_book_b69": {
+    "difficulty": -1,
+    "tags": ["二部マッチング問題"],
+    "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_ep"
+  },
+  "typical90_001": {
+    "difficulty": -1,
+    "tags": ["値で二分探索"],
+    "url": "https://atcoder.jp/contests/typical90/tasks/typical90_a"
+  },
+  "typical90_002": {
+    "difficulty": -1,
+    "tags": ["bit全探索"],
+    "url": "https://atcoder.jp/contests/typical90/tasks/typical90_b"
+  },
+  "typical90_004": {
+    "difficulty": -1,
+    "tags": ["累積和"],
+    "url": "https://atcoder.jp/contests/typical90/tasks/typical90_d"
+  },
+  "typical90_006": {
+    "difficulty": -1,
+    "tags": ["辞書順最小"],
+    "url": "https://atcoder.jp/contests/typical90/tasks/typical90_f"
+  },
+  "typical90_007": {
+    "difficulty": -1,
+    "tags": ["二分探索"],
+    "url": "https://atcoder.jp/contests/typical90/tasks/typical90_g"
+  },
+  "typical90_008": {
+    "difficulty": -1,
+    "tags": ["DP（中級）"],
+    "url": "https://atcoder.jp/contests/typical90/tasks/typical90_h"
+  },
+  "typical90_009": {
+    "difficulty": -1,
+    "tags": ["偏角ソート"],
+    "url": "https://atcoder.jp/contests/typical90/tasks/typical90_i"
+  },
+  "typical90_010": {
+    "difficulty": -1,
+    "tags": ["累積和"],
+    "url": "https://atcoder.jp/contests/typical90/tasks/typical90_j"
+  },
+  "typical90_011": {
+    "difficulty": -1,
+    "tags": ["DP（中級）"],
+    "url": "https://atcoder.jp/contests/typical90/tasks/typical90_k"
+  },
+  "typical90_012": {
+    "difficulty": -1,
+    "tags": ["Union-Find"],
+    "url": "https://atcoder.jp/contests/typical90/tasks/typical90_l"
+  },
+  "typical90_014": {
+    "difficulty": -1,
+    "tags": ["ソートして貪欲法"],
+    "url": "https://atcoder.jp/contests/typical90/tasks/typical90_n"
+  },
+  "typical90_015": {
+    "difficulty": -1,
+    "tags": ["組み合わせ"],
+    "url": "https://atcoder.jp/contests/typical90/tasks/typical90_o"
+  },
+  "typical90_019": {
+    "difficulty": -1,
+    "tags": ["区間DP"],
+    "url": "https://atcoder.jp/contests/typical90/tasks/typical90_s"
+  },
+  "typical90_021": {
+    "difficulty": -1,
+    "tags": ["強連結成分分解（SCC）"],
+    "url": "https://atcoder.jp/contests/typical90/tasks/typical90_u"
+  },
+  "typical90_022": {
+    "difficulty": -1,
+    "tags": ["最大公約数・最小公倍数"],
+    "url": "https://atcoder.jp/contests/typical90/tasks/typical90_v"
+  },
+  "typical90_026": {
+    "difficulty": -1,
+    "tags": ["二部グラフ"],
+    "url": "https://atcoder.jp/contests/typical90/tasks/typical90_z"
+  },
+  "typical90_027": {
+    "difficulty": -1,
+    "tags": ["Set"],
+    "url": "https://atcoder.jp/contests/typical90/tasks/typical90_aa"
+  },
+  "typical90_030": {
+    "difficulty": -1,
+    "tags": ["素数列挙"],
+    "url": "https://atcoder.jp/contests/typical90/tasks/typical90_ad"
+  },
+  "typical90_031": {
+    "difficulty": -1,
+    "tags": ["ゲーム"],
+    "url": "https://atcoder.jp/contests/typical90/tasks/typical90_ae"
+  },
+  "typical90_032": {
+    "difficulty": -1,
+    "tags": ["順列全探索"],
+    "url": "https://atcoder.jp/contests/typical90/tasks/typical90_af"
+  },
+  "typical90_033": {
+    "difficulty": -1,
+    "tags": ["コーナーソース"],
+    "url": "https://atcoder.jp/contests/typical90/tasks/typical90_ag"
+  },
+  "typical90_034": {
+    "difficulty": -1,
+    "tags": ["しゃくとり法（上級）"],
+    "url": "https://atcoder.jp/contests/typical90/tasks/typical90_ah"
+  },
+  "typical90_036": {
+    "difficulty": -1,
+    "tags": ["マンハッタン距離"],
+    "url": "https://atcoder.jp/contests/typical90/tasks/typical90_aj"
+  },
+  "typical90_037": {
+    "difficulty": -1,
+    "tags": ["DP（上級）", "セグメント木"],
+    "url": "https://atcoder.jp/contests/typical90/tasks/typical90_ak"
+  },
+  "typical90_038": {
+    "difficulty": -1,
+    "tags": ["最大公約数・最小公倍数"],
+    "url": "https://atcoder.jp/contests/typical90/tasks/typical90_al"
+  },
+  "typical90_039": {
+    "difficulty": -1,
+    "tags": ["答えへの貢献度を考える（主客転倒）"],
+    "url": "https://atcoder.jp/contests/typical90/tasks/typical90_am"
+  },
+  "typical90_042": {
+    "difficulty": -1,
+    "tags": ["xの倍数の性質"],
+    "url": "https://atcoder.jp/contests/typical90/tasks/typical90_ap"
+  },
+  "typical90_043": {
+    "difficulty": -1,
+    "tags": ["拡張ダイクストラ"],
+    "url": "https://atcoder.jp/contests/typical90/tasks/typical90_aq"
+  },
+  "typical90_044": {
+    "difficulty": -1,
+    "tags": ["見かけ上の変化をメモ"],
+    "url": "https://atcoder.jp/contests/typical90/tasks/typical90_ar"
+  },
+  "typical90_045": {
+    "difficulty": -1,
+    "tags": ["bitDB"],
+    "url": "https://atcoder.jp/contests/typical90/tasks/typical90_as"
+  },
+  "typical90_046": {
+    "difficulty": -1,
+    "tags": ["個数を考える"],
+    "url": "https://atcoder.jp/contests/typical90/tasks/typical90_at"
+  },
+  "typical90_048": {
+    "difficulty": -1,
+    "tags": ["上限値・下限値を考える"],
+    "url": "https://atcoder.jp/contests/typical90/tasks/typical90_av"
+  },
+  "typical90_049": {
+    "difficulty": -1,
+    "tags": ["問題を言い換える", "最小全域木"],
+    "url": "https://atcoder.jp/contests/typical90/tasks/typical90_aw"
+  },
+  "typical90_050": {
+    "difficulty": -1,
+    "tags": ["DP（中級）"],
+    "url": "https://atcoder.jp/contests/typical90/tasks/typical90_ax"
+  },
+  "typical90_051": {
+    "difficulty": -1,
+    "tags": ["半分全列挙"],
+    "url": "https://atcoder.jp/contests/typical90/tasks/typical90_ay"
+  },
+  "typical90_052": {
+    "difficulty": -1,
+    "tags": ["数式を変形する"],
+    "url": "https://atcoder.jp/contests/typical90/tasks/typical90_az"
+  },
+  "typical90_054": {
+    "difficulty": -1,
+    "tags": ["グラフ構造に工夫を"],
+    "url": "https://atcoder.jp/contests/typical90/tasks/typical90_bb"
+  },
+  "typical90_055": {
+    "difficulty": -1,
+    "tags": ["オーバーフロー"],
+    "url": "https://atcoder.jp/contests/typical90/tasks/typical90_bc"
+  },
+  "typical90_056": {
+    "difficulty": -1,
+    "tags": ["DP（上級）", "DP復元"],
+    "url": "https://atcoder.jp/contests/typical90/tasks/typical90_bd"
+  },
+  "typical90_057": {
+    "difficulty": -1,
+    "tags": ["行列の掃き出し法"],
+    "url": "https://atcoder.jp/contests/typical90/tasks/typical90_be"
+  },
+  "typical90_058": {
+    "difficulty": -1,
+    "tags": ["周期を考える"],
+    "url": "https://atcoder.jp/contests/typical90/tasks/typical90_bf"
+  },
+  "typical90_060": {
+    "difficulty": -1,
+    "tags": ["うしろから考える、両側から考える", "最長増加部分列"],
+    "url": "https://atcoder.jp/contests/typical90/tasks/typical90_bh"
+  },
+  "typical90_061": {
+    "difficulty": -1,
+    "tags": ["Queue", "Deque"],
+    "url": "https://atcoder.jp/contests/typical90/tasks/typical90_bi"
+  },
+  "typical90_062": {
+    "difficulty": -1,
+    "tags": ["うしろから考える、両側から考える"],
+    "url": "https://atcoder.jp/contests/typical90/tasks/typical90_bj"
+  },
+  "typical90_063": {
+    "difficulty": -1,
+    "tags": ["bit全探索（上級）"],
+    "url": "https://atcoder.jp/contests/typical90/tasks/typical90_bk"
+  },
+  "typical90_064": {
+    "difficulty": -1,
+    "tags": ["階差"],
+    "url": "https://atcoder.jp/contests/typical90/tasks/typical90_bl"
+  },
+  "typical90_066": {
+    "difficulty": -1,
+    "tags": ["期待値の線形性"],
+    "url": "https://atcoder.jp/contests/typical90/tasks/typical90_bn"
+  },
+  "typical90_067": {
+    "difficulty": -1,
+    "tags": ["N進法"],
+    "url": "https://atcoder.jp/contests/typical90/tasks/typical90_bo"
+  },
+  "typical90_068": {
+    "difficulty": -1,
+    "tags": ["クエリ先読み", "Union-Find"],
+    "url": "https://atcoder.jp/contests/typical90/tasks/typical90_bp"
+  },
+  "typical90_069": {
+    "difficulty": -1,
+    "tags": ["組み合わせの計算（繰り返し二乗法）"],
+    "url": "https://atcoder.jp/contests/typical90/tasks/typical90_bq"
+  },
+  "typical90_070": {
+    "difficulty": -1,
+    "tags": ["XとYを独立で考える, 操作順序を気にしない、bitごと独立で考える"],
+    "url": "https://atcoder.jp/contests/typical90/tasks/typical90_br"
+  },
+  "typical90_072": {
+    "difficulty": -1,
+    "tags": ["DFS","バックトラック"],
+    "url": "https://atcoder.jp/contests/typical90/tasks/typical90_bt"
+  },
+  "typical90_073": {
+    "difficulty": -1,
+    "tags": ["木DP"],
+    "url": "https://atcoder.jp/contests/typical90/tasks/typical90_bu"
+  },
+  "typical90_074": {
+    "difficulty": -1,
+    "tags": ["不変量に着目する"],
+    "url": "https://atcoder.jp/contests/typical90/tasks/typical90_bv"
+  },
+  "typical90_075": {
+    "difficulty": -1,
+    "tags": ["素因数分解"],
+    "url": "https://atcoder.jp/contests/typical90/tasks/typical90_bw"
+  },
+  "typical90_076": {
+    "difficulty": -1,
+    "tags": ["円環"],
+    "url": "https://atcoder.jp/contests/typical90/tasks/typical90_bx"
+  },
+  "typical90_079": {
+    "difficulty": -1,
+    "tags": ["XとYを独立で考える, 操作順序を気にしない、bitごと独立で考える"],
+    "url": "https://atcoder.jp/contests/typical90/tasks/typical90_ca"
+  },
+  "typical90_080": {
+    "difficulty": -1,
+    "tags": ["包除原理"],
+    "url": "https://atcoder.jp/contests/typical90/tasks/typical90_cb"
+  },
+  "typical90_081": {
+    "difficulty": -1,
+    "tags": ["二次元累積和"],
+    "url": "https://atcoder.jp/contests/typical90/tasks/typical90_cc"
+  },
+  "typical90_082": {
+    "difficulty": -1,
+    "tags": ["部分問題に分解する"],
+    "url": "https://atcoder.jp/contests/typical90/tasks/typical90_cd"
+  },
+  "typical90_083": {
+    "difficulty": -1,
+    "tags": ["平方分割"],
+    "url": "https://atcoder.jp/contests/typical90/tasks/typical90_ce"
+  },
+  "typical90_084": {
+    "difficulty": -1,
+    "tags": ["ランレングス圧縮"],
+    "url": "https://atcoder.jp/contests/typical90/tasks/typical90_cf"
+  },
+  "typical90_085": {
+    "difficulty": -1,
+    "tags": ["約数列挙"],
+    "url": "https://atcoder.jp/contests/typical90/tasks/typical90_cg"
+  },
+  "typical90_086": {
+    "difficulty": -1,
+    "tags": ["XとYを独立で考える, 操作順序を気にしない、bitごと独立で考える"],
+    "url": "https://atcoder.jp/contests/typical90/tasks/typical90_ch"
+  },
+  "typical90_087": {
+    "difficulty": -1,
+    "tags": ["値で二分探索", "ワーシャルフロイド"],
+    "url": "https://atcoder.jp/contests/typical90/tasks/typical90_ci"
+  },
+  "typical90_088": {
+    "difficulty": -1,
+    "tags": ["鳩ノ巣原理", "DFS", "バックトラック"],
+    "url": "https://atcoder.jp/contests/typical90/tasks/typical90_cj"
+  },
+  "typical_algorithm_c": {
+    "difficulty": -1,
+    "tags": ["DP（上級）"],
+    "url": "https://atcoder.jp/contests/typical-algorithm/tasks/typical_algorithm_c"
+  }
 }
