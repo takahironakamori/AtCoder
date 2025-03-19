@@ -121,7 +121,7 @@
   },
   "abc267_c": {
     "difficulty": 524,
-    "tags": [],
+    "tags": ["累積和", "しゃくとり法"],
     "url": "https://atcoder.jp/contests/abc267/tasks/abc267_c"
   },
   "abc270_b": {
