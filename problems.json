@@ -104,6 +104,11 @@
     "tags": ["しゃくとり法（上級）"],
     "url": "https://atcoder.jp/contests/abc229/tasks/abc229_d"
   },
+  "abc231_d": {
+    "difficulty": 721,
+    "tags": ["閉路検知"],
+    "url": "https://atcoder.jp/contests/abc231/tasks/abc231_d"
+  },
   "abc234_d": {
     "difficulty": 503,
     "tags": ["Priority Queue"],

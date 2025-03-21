@@ -268,5 +268,14 @@
     "submission_time": "2024-03-21T13:48:02Z",
     "start_time": "2024-03-21T13:17:00Z",
     "comment": ""
+  },
+  {
+    "submission_id": 63990652,
+    "problem_id": "abc231_D",
+    "result": "解説AC",
+    "execution_time": 56,
+    "submission_time": "2024-03-21T14:30:02Z",
+    "start_time": "2024-03-21T13:51:00Z",
+    "comment": ""
   }
 ]
