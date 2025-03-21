@@ -154,6 +154,11 @@
     "tags": [],
     "url": "https://atcoder.jp/contests/abc270/tasks/abc270_b"
   },
+  "abc270_c": {
+    "difficulty": 625,
+    "tags": ["DFS"],
+    "url": "https://atcoder.jp/contests/abc270/tasks/abc270_c"
+  },
   "abc275_c": {
     "difficulty": 760,
     "tags": [],
