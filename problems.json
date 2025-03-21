@@ -84,6 +84,11 @@
     "tags": ["桁DP"],
     "url": "https://atcoder.jp/contests/abc208/tasks/abc208_e"
   },
+  "abc213_d": {
+    "difficulty": 710,
+    "tags": ["DFS"],
+    "url": "https://atcoder.jp/contests/abc213/tasks/abc213_d"
+  },
   "abc217_d": {
     "difficulty": 802,
     "tags": ["セグメント木"],
@@ -119,6 +124,11 @@
     "tags": ["組み合わせ最適化"],
     "url": "https://atcoder.jp/contests/abc236/tasks/abc236_d"
   },
+  "abc247_c": {
+    "difficulty": 149,
+    "tags": ["DFS"],
+    "url": "https://atcoder.jp/contests/abc247/tasks/abc247_c"
+  },
   "abc259_b": {
     "difficulty": 180,
     "tags": ["三角関数"],
@@ -131,7 +141,7 @@
   },
   "abc264_b": {
     "difficulty": 55,
-    "tags": [],
+    "tags": ["グリッド"],
     "url": "https://atcoder.jp/contests/abc264/tasks/abc264_b"
   },
   "abc267_c": {
@@ -204,10 +214,20 @@
     "tags": ["桁DP"],
     "url": "https://atcoder.jp/contests/abc336/tasks/abc336_e"
   },
+  "abc337_b": {
+    "difficulty": 97,
+    "tags": [""],
+    "url": "https://atcoder.jp/contests/abc337/tasks/abc337_b"
+  },
   "abc338_d": {
     "difficulty": 1234,
     "tags": [],
     "url": "https://atcoder.jp/contests/abc338/tasks/abc338_d"
+  },
+  "abc339_c": {
+    "difficulty": 174,
+    "tags": [],
+    "url": "https://atcoder.jp/contests/abc339/tasks/abc339_c"
   },
   "abc345_c": {
     "difficulty": 469,
