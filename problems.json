@@ -174,10 +174,15 @@
     "tags": ["DFS"],
     "url": "https://atcoder.jp/contests/abc270/tasks/abc270_c"
   },
-  "abc275_c": {
+  "abc274_c": {
     "difficulty": 760,
     "tags": [],
     "url": "https://atcoder.jp/contests/abc275/tasks/abc275_c"
+  },
+  "abc275_c": {
+    "difficulty": 315,
+    "tags": ["DP（基礎）"],
+    "url": "https://atcoder.jp/contests/abc274/tasks/abc274_c"
   },
   "abc277_c": {
     "difficulty": 540,
@@ -233,6 +238,11 @@
     "difficulty": 182,
     "tags": ["全パターンを試す"],
     "url": "https://atcoder.jp/contests/abc331/tasks/abc331_b"
+  },
+  "abc334_c": {
+    "difficulty": 1030,
+    "tags": ["累積和"],
+    "url": "https://atcoder.jp/contests/abc334/tasks/abc334_c"
   },
   "abc336_e": {
     "difficulty": 1538,
@@ -316,7 +326,7 @@
   },
   "abc378_d": {
     "difficulty": 587,
-    "tags": ["DFS"],
+    "tags": ["DFS", "バックトラック"],
     "url": "https://atcoder.jp/contests/abc378/tasks/abc378_d"
   },
   "abc379_d": {
@@ -398,6 +408,11 @@
     "difficulty": 749,
     "tags": ["個数を考える", "しゃくとり法（上級）"],
     "url": "https://atcoder.jp/contests/abc389/tasks/abc389_d"
+  },
+  "abc393_d": {
+    "difficulty": 533,
+    "tags": [""],
+    "url": "https://atcoder.jp/contests/abc393/tasks/abc393_d"
   },
   "abc397_b": {
     "difficulty": -1,
