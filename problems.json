@@ -124,6 +124,11 @@
     "tags": ["Priority Queue"],
     "url": "https://atcoder.jp/contests/abc234/tasks/abc234_d"
   },
+  "abc235_d": {
+    "difficulty": 862,
+    "tags": ["グラフに置き換える"],
+    "url": "https://atcoder.jp/contests/abc235/tasks/abc235_d"
+  },
   "abc236_d": {
     "difficulty": 1190,
     "tags": ["組み合わせ最適化"],
