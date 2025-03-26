@@ -204,6 +204,11 @@
     "tags": [],
     "url": "https://atcoder.jp/contests/abc290/tasks/abc290_d"
   },
+  "abc298_d": {
+    "difficulty": 882,
+    "tags": ["Deque"],
+    "url": "https://atcoder.jp/contests/abc298/tasks/abc298_d"
+  },
   "abc313_c": {
     "difficulty": 681,
     "tags": [],
