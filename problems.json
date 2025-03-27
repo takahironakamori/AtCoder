@@ -194,6 +194,11 @@
     "tags": ["DFS"],
     "url": "https://atcoder.jp/contests/abc277/tasks/abc277_c"
   },
+  "abc277_d": {
+    "difficulty": 873,
+    "tags": ["Union-Find"],
+    "url": "https://atcoder.jp/contests/abc277/tasks/abc277_d"
+  },
   "abc278_b": {
     "difficulty": 123,
     "tags": ["日時"],
@@ -308,6 +313,11 @@
     "difficulty": 441,
     "tags": [],
     "url": "https://atcoder.jp/contests/abc354/tasks/abc354_c"
+  },
+  "abc359_c": {
+    "difficulty": 828,
+    "tags": [],
+    "url": "https://atcoder.jp/contests/abc359/tasks/abc359_c"
   },
   "abc367_d": {
     "difficulty": 1037,
@@ -433,6 +443,11 @@
     "difficulty": 817,
     "tags": ["BFS"],
     "url": "https://atcoder.jp/contests/abc387/tasks/abc387_d"
+  },
+  "abc388_d": {
+    "difficulty": 659,
+    "tags": ["いもす法"],
+    "url": "https://atcoder.jp/contests/abc388/tasks/abc388_d"
   },
   "abc389_d": {
     "difficulty": 749,
