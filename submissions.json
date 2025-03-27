@@ -538,5 +538,14 @@
     "submission_time": "2024-03-27T20:02:38Z",
     "start_time": "2024-03-27T19:30:00Z",
     "comment": "解法がわからなかった"
+  },
+  {
+    "submission_id": 64229625,
+    "problem_id": "abc334_B",
+    "result": "解説AC",
+    "execution_time": 1,
+    "submission_time": "2024-03-27T21:33:51Z",
+    "start_time": "2024-03-27T21:15:00Z",
+    "comment": "解法がわからなかった"
   }
 ]

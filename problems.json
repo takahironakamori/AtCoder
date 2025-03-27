@@ -264,6 +264,11 @@
     "tags": ["全パターンを試す"],
     "url": "https://atcoder.jp/contests/abc331/tasks/abc331_b"
   },
+  "abc334_b": {
+    "difficulty": 479,
+    "tags": [""],
+    "url": "https://atcoder.jp/contests/abc334/tasks/abc334_b"
+  },
   "abc334_c": {
     "difficulty": 1030,
     "tags": ["累積和"],
