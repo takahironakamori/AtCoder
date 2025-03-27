@@ -547,5 +547,14 @@
     "submission_time": "2024-03-27T21:33:51Z",
     "start_time": "2024-03-27T21:15:00Z",
     "comment": "解法がわからなかった"
+  },
+  {
+    "submission_id": 64232861,
+    "problem_id": "abc234_D",
+    "result": "AC",
+    "execution_time": 548,
+    "submission_time": "2024-03-27T23:44:31Z",
+    "start_time": "2024-03-27T23:35:00Z",
+    "comment": ""
   }
 ]
