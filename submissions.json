@@ -529,5 +529,14 @@
     "submission_time": "2024-03-27T19:20:34Z",
     "start_time": "2024-03-27T19:00:00Z",
     "comment": "実装できなかった"
+  },
+  {
+    "submission_id": 64227030,
+    "problem_id": "abc379_C",
+    "result": "解説AC",
+    "execution_time": 108,
+    "submission_time": "2024-03-27T20:02:38Z",
+    "start_time": "2024-03-27T19:30:00Z",
+    "comment": "解法がわからなかった"
   }
 ]

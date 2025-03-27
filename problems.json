@@ -369,6 +369,11 @@
     "tags": ["DFS", "バックトラック"],
     "url": "https://atcoder.jp/contests/abc378/tasks/abc378_d"
   },
+  "abc379_c": {
+    "difficulty": 951,
+    "tags": [""],
+    "url": "https://atcoder.jp/contests/abc379/tasks/abc379_c"
+  },
   "abc379_d": {
     "difficulty": 745,
     "tags": ["Queue", "Deque", "データの持ち方を工夫する"],
