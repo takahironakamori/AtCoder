@@ -139,6 +139,11 @@
     "tags": ["組み合わせ最適化"],
     "url": "https://atcoder.jp/contests/abc236/tasks/abc236_d"
   },
+  "abc241_c": {
+    "difficulty": 664,
+    "tags": [""],
+    "url": "https://atcoder.jp/contests/abc241/tasks/abc241_c"
+  },
   "abc247_c": {
     "difficulty": 149,
     "tags": ["DFS"],
@@ -319,6 +324,11 @@
     "tags": [],
     "url": "https://atcoder.jp/contests/abc354/tasks/abc354_c"
   },
+  "abc357_d": {
+    "difficulty": 970,
+    "tags": [],
+    "url": "https://atcoder.jp/contests/abc357/tasks/abc357_d"
+  },
   "abc359_c": {
     "difficulty": 828,
     "tags": [],
@@ -334,6 +344,11 @@
     "tags": ["DFS"],
     "url": "https://atcoder.jp/contests/abc368/tasks/abc368_d"
   },
+  "abc370_d": {
+    "difficulty": 1088,
+    "tags": [""],
+    "url": "https://atcoder.jp/contests/abc370/tasks/abc370_d"
+  },
   "abc371_c": {
     "difficulty": 849,
     "tags": ["順列全探索"],
@@ -348,6 +363,11 @@
     "difficulty": 394,
     "tags": ["順列全探索（上級）"],
     "url": "https://atcoder.jp/contests/abc374/tasks/abc374_d"
+  },
+  "abc375_C": {
+    "difficulty": 972,
+    "tags": [""],
+    "url": "https://atcoder.jp/contests/abc375/tasks/abc375_c"
   },
   "abc375_D": {
     "difficulty": 658,
