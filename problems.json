@@ -407,7 +407,7 @@
     ]
   },
   "abc275_c": {
-    "difficulty": 315,
+    "difficulty": 760,
     "tags": [
       "DP（基礎）"
     ],
@@ -418,6 +418,21 @@
         "result": "AC",
         "submission_time": "2024-03-15T10:49:32Z",
         "comment": "OK"
+      }
+    ]
+  },
+  "abc275_d": {
+    "difficulty": 606,
+    "tags": [
+      "メモ化再帰"
+    ],
+    "url": "https://atcoder.jp/contests/abc275/tasks/abc275_d",
+    "history": [
+      {
+        "submission_id": 64440174,
+        "result": "解説AC",
+        "submission_time": "2024-04-02T21:10:41Z",
+        "comment": "実装できなかった"
       }
     ]
   },
