@@ -1117,6 +1117,21 @@
       }
     ]
   },
+  "abc400_c": {
+    "difficulty": -1,
+    "tags": [
+      "数学的な列挙と重複排除"
+    ],
+    "url": "https://atcoder.jp/contests/abc400/tasks/abc400_c",
+    "history": [
+      {
+        "submission_id": 64595812,
+        "result": "解説AC",
+        "submission_time": "2024-04-06T23:22:33Z",
+        "comment": "解法がわからなかった"
+      }
+    ]
+  },
   "abl_e": {
     "difficulty": -1,
     "tags": [
