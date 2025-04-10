@@ -601,5 +601,14 @@
     "submission_time": "2024-04-09T20:16:53Z",
     "start_time": "2024-04-09T20:00:00Z",
     "comment": "OK"
+  },
+  {
+    "submission_id": 64665302,
+    "problem_id": "abc257_c",
+    "result": "解説AC",
+    "execution_time": 103,
+    "submission_time": "2024-04-10T13:24:04Z",
+    "start_time": "2024-04-10T13:00:00Z",
+    "comment": "解法がわからなかった"
   }
 ]

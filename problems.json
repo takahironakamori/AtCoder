@@ -294,6 +294,21 @@
     ]
   },
   "abc247_c": {
+    "difficulty": 678,
+    "tags": [
+      "二分探索"
+    ],
+    "url": "https://atcoder.jp/contests/abc257/tasks/abc257_c",
+    "history": [
+      {
+        "submission_id": 64665302,
+        "result": "解説AC",
+        "submission_time": "2024-04-10T13:24:04Z",
+        "comment": "解法がわからなかった"
+      }
+    ]
+  },
+  "abc257_c": {
     "difficulty": 149,
     "tags": [
       "DFS"
