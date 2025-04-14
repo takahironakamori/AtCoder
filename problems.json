@@ -1175,6 +1175,21 @@
       }
     ]
   },
+  "abc399_d": {
+    "difficulty": -1,
+    "tags": [
+      ""
+    ],
+    "url": "https://atcoder.jp/contests/abc399/tasks/abc399_d",
+    "history": [
+      {
+        "submission_id": 64848767,
+        "result": "解説AC",
+        "submission_time": "2024-04-14T21:15:02Z",
+        "comment": "解法がわからなかった"
+      }
+    ]
+  },
   "abc400_c": {
     "difficulty": -1,
     "tags": [
