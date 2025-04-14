@@ -1190,6 +1190,37 @@
       }
     ]
   },
+  "abc401_c": {
+    "difficulty": -1,
+    "tags": [
+      "累積和",
+      "mod"
+    ],
+    "url": "https://atcoder.jp/contests/abc401/tasks/abc401_c",
+    "history": [
+      {
+        "submission_id": 64836821,
+        "result": "AC",
+        "submission_time": "2024-04-14T11:55:04Z",
+        "comment": "実装が遅い"
+      }
+    ]
+  },
+  "abc401_d": {
+    "difficulty": -1,
+    "tags": [
+      "場合分け"
+    ],
+    "url": "https://atcoder.jp/contests/abc401/tasks/abc401_d",
+    "history": [
+      {
+        "submission_id": 64842133,
+        "result": "解説AC",
+        "submission_time": "2024-04-14T16:18:57Z",
+        "comment": "解法がわからなかった"
+      }
+    ]
+  },
   "abl_e": {
     "difficulty": -1,
     "tags": [
