@@ -293,6 +293,21 @@
       }
     ]
   },
+  "abc245_c": {
+    "difficulty": 403,
+    "tags": [
+      "DP（中級）"
+    ],
+    "url": "https://atcoder.jp/contests/abc245/tasks/abc245_c",
+    "history": [
+      {
+        "submission_id": 64871917,
+        "result": "解説AC",
+        "submission_time": "2024-04-15T21:42:03Z",
+        "comment": "実装できなかった"
+      }
+    ]
+  },
   "abc247_c": {
     "difficulty": 678,
     "tags": [
@@ -305,6 +320,21 @@
         "result": "解説AC",
         "submission_time": "2024-04-10T13:24:04Z",
         "comment": "解法がわからなかった"
+      }
+    ]
+  },
+  "abc248_c": {
+    "difficulty": 787,
+    "tags": [
+      "DP（中級）"
+    ],
+    "url": "https://atcoder.jp/contests/abc248/tasks/abc248_c",
+    "history": [
+      {
+        "submission_id": 64870406,
+        "result": "解説AC",
+        "submission_time": "2024-04-15T20:41:08Z",
+        "comment": "実装できなかった"
       }
     ]
   },
@@ -1201,6 +1231,21 @@
         "submission_id": 64595812,
         "result": "解説AC",
         "submission_time": "2024-04-06T23:22:33Z",
+        "comment": "解法がわからなかった"
+      }
+    ]
+  },
+  "abc400_d": {
+    "difficulty": -1,
+    "tags": [
+      "01BFS"
+    ],
+    "url": "https://atcoder.jp/contests/abc400/tasks/abc400_d",
+    "history": [
+      {
+        "submission_id": 64852400,
+        "result": "解説AC",
+        "submission_time": "2024-04-14T23:31:15Z",
         "comment": "解法がわからなかった"
       }
     ]
