@@ -858,6 +858,19 @@
     "tags": [],
     "url": "https://atcoder.jp/contests/abc348/tasks/abc348_e"
   },
+  "abc352_d": {
+    "difficulty": 714,
+    "tags": [],
+    "url": "https://atcoder.jp/contests/abc354/tasks/abc354_c",
+    "history": [
+      {
+        "submission_id": 64872665,
+        "result": "解説AC",
+        "submission_time": "2024-04-15T22:04:20Z",
+        "comment": "解法がわからなかった"
+      }
+    ]
+  },
   "abc354_c": {
     "difficulty": 441,
     "tags": [],

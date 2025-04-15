@@ -655,5 +655,14 @@
     "submission_time": "2024-04-15T21:42:03Z",
     "start_time": "2024-04-15T21:20:00Z",
     "comment": "実装できなかった"
+  },
+  {
+    "submission_id": 64872665,
+    "problem_id": "abc352_d",
+    "result": "解説AC",
+    "execution_time": 98,
+    "submission_time": "2024-04-15T22:04:20Z",
+    "start_time": "2024-04-15T21:40:00Z",
+    "comment": "解法がわからなかった"
   }
 ]
