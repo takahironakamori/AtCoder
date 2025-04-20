@@ -86,6 +86,13 @@
     ],
     "url": "https://atcoder.jp/contests/abc174/tasks/abc174_f"
   },
+  "abc184_d": {
+    "difficulty": 1276,
+    "tags": [
+      "期待値DP"
+    ],
+    "url": "https://atcoder.jp/contests/abc184/tasks/abc184_d"
+  },
   "abc185_f": {
     "difficulty": 1053,
     "tags": [
@@ -411,6 +418,13 @@
       }
     ]
   },
+  "abc266_e": {
+    "difficulty": 1227,
+    "tags": [
+      "期待値DP"
+    ],
+    "url": "https://atcoder.jp/contests/abc266/tasks/abc266_e"
+  },
   "abc267_c": {
     "difficulty": 524,
     "tags": [
@@ -577,6 +591,13 @@
       }
     ]
   },
+  "abc280_e": {
+    "difficulty": 1251,
+    "tags": [
+      "期待値DP"
+    ],
+    "url": "https://atcoder.jp/contests/abc280/tasks/abc280_e"
+  },
   "abc285_d": {
     "difficulty": 663,
     "tags": [
@@ -649,6 +670,13 @@
         "comment": "解法がわからなかった"
       }
     ]
+  },
+  "abc300_e": {
+    "difficulty": 1354,
+    "tags": [
+      "確率DP"
+    ],
+    "url": "https://atcoder.jp/contests/abc300/tasks/abc300_e"
   },
   "abc306_d": {
     "difficulty": 596,
