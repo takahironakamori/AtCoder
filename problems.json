@@ -1361,6 +1361,54 @@
       }
     ]
   },
+  "abc402_c": {
+    "difficulty": -1,
+    "tags": [
+      "set"
+    ],
+    "url": "https://atcoder.jp/contests/abc402/tasks/abc402_c",
+    "history": [
+      {
+        "submission_id": 65056541,
+        "result": "AC",
+        "execution_time": 598,
+        "submission_time": "2024-04-20T16:01:26Z",
+        "comment": "OK"
+      }
+    ]
+  },
+  "abc402_d": {
+    "difficulty": -1,
+    "tags": [
+      "set"
+    ],
+    "url": "https://atcoder.jp/contests/abc402/tasks/abc402_d",
+    "history": [
+      {
+        "submission_id": 65056679,
+        "result": "解説AC",
+        "execution_time": 134,
+        "submission_time": "2024-04-20T16:06:46Z",
+        "comment": "解法がわからなかった"
+      }
+    ]
+  },
+  "abc402_e": {
+    "difficulty": -1,
+    "tags": [
+      "set"
+    ],
+    "url": "https://atcoder.jp/contests/abc402/tasks/abc402_e",
+    "history": [
+      {
+        "submission_id": 65057233,
+        "result": "解説AC",
+        "execution_time": 18,
+        "submission_time": "2024-04-20T16:27:50Z",
+        "comment": "解法がわからなかった"
+      }
+    ]
+  },
   "abl_e": {
     "difficulty": -1,
     "tags": [
