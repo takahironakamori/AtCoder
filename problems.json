@@ -1396,7 +1396,8 @@
   "abc402_e": {
     "difficulty": -1,
     "tags": [
-      "set"
+      "期待値DP",
+      "bitDP"
     ],
     "url": "https://atcoder.jp/contests/abc402/tasks/abc402_e",
     "history": [
@@ -2510,7 +2511,7 @@
   "typical90_045": {
     "difficulty": -1,
     "tags": [
-      "bitDB"
+      "bitDP"
     ],
     "url": "https://atcoder.jp/contests/typical90/tasks/typical90_as"
   },
