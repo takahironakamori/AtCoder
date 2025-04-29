@@ -1438,6 +1438,21 @@
       }
     ]
   },
+  "abc403_d": {
+    "difficulty": -1,
+    "tags": [
+      "DP"
+    ],
+    "url": "https://atcoder.jp/contests/abc403/tasks/abc403_d",
+    "history": [
+      {
+        "submission_id": 65337145,
+        "result": "解説AC",
+        "submission_time": "2024-04-29T18:24:25Z",
+        "comment": "解法がわからなかった"
+      }
+    ]
+  },
   "abl_e": {
     "difficulty": -1,
     "tags": [
