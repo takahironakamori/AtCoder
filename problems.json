@@ -678,6 +678,27 @@
     ],
     "url": "https://atcoder.jp/contests/abc300/tasks/abc300_e"
   },
+  "abc303_d": {
+    "difficulty": 778,
+    "tags": [
+      "DP（中級）"
+    ],
+    "url": "https://atcoder.jp/contests/abc303/tasks/abc303_d",
+    "history": [
+      {
+        "submission_id": 65361302,
+        "result": "WA",
+        "submission_time": "2024-04-30T20:29:15Z",
+        "comment": "実装ミス（型間違い）"
+      },
+      {
+        "submission_id": 65361321,
+        "result": "AC",
+        "submission_time": "2024-04-30T20:50:06Z",
+        "comment": "OK"
+      }
+    ]
+  },
   "abc306_d": {
     "difficulty": 596,
     "tags": [
@@ -973,6 +994,21 @@
         "result": "解説AC",
         "submission_time": "2024-03-27T17:19:34Z",
         "comment": "解法がわからなかった"
+      }
+    ]
+  },
+  "abc366_b": {
+    "difficulty": 180,
+    "tags": [
+      "配列の回転"
+    ],
+    "url": "https://atcoder.jp/contests/abc366/tasks/abc366_b",
+    "history": [
+      {
+        "submission_id": 65379469,
+        "result": "WA",
+        "submission_time": "2024-05-01T19:26:23Z",
+        "comment": "実装ミス（配列）"
       }
     ]
   },
