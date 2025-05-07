@@ -727,6 +727,19 @@
       }
     ]
   },
+  "abc315_d": {
+    "difficulty": 1531,
+    "tags": [],
+    "url": "https://atcoder.jp/contests/abc315/tasks/abc315_d",
+    "history": [
+      {
+        "submission_id": 65569904,
+        "result": "WA",
+        "submission_time": "2024-05-07T20:47:29Z",
+        "comment": ""
+      }
+    ]
+  },
   "abc318_c": {
     "difficulty": 400,
     "tags": [

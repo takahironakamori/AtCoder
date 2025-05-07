@@ -772,5 +772,14 @@
     "submission_time": "2024-05-01T19:26:23Z",
     "start_time": "2024-05-01T19:00:00Z",
     "comment": "実装ミス（配列）"
+  },
+  {
+    "submission_id": 65569904,
+    "problem_id": "abc315_b",
+    "result": "WA",
+    "execution_time": 61,
+    "submission_time": "2024-05-07T20:47:29Z",
+    "start_time": "2024-05-07T20:00:00Z",
+    "comment": "問題が理解できなかった"
   }
 ]
